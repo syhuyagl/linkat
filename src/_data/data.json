@@ -1,0 +1,34 @@
+{
+  "linklists": {
+    "main": [
+      {
+        "title": "LinkATにできること",
+        "url": "/"
+      },
+      {
+        "title": "機能一覧",
+        "url": "/about.html"
+      },
+      {
+        "title": "料金プラン",
+        "url": "/nested/"
+      },
+      {
+        "title": "ご導入まで",
+        "url": "/nested/"
+      },
+      {
+        "title": "LinkATを体験する",
+        "url": "/nested/"
+      },
+      {
+        "title": "よくあるご質問",
+        "url": "/nested/"
+      },
+      {
+        "title": "公式ブログ",
+        "url": "/nested/"
+      }
+    ]
+  }
+}

@@ -1,0 +1,73 @@
+/* Header
+------------------------------------------------------------*/
+.c-header {
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    top: 16px;
+    padding: 0 10px;
+
+    .c-header__main {
+        display: flex;
+        justify-content: space-between;
+        background: #fff;
+        align-items: center;
+    }
+
+    .c-header__navlinks {
+        display: flex;
+        color: #000;
+        font-size: 1.4rem;
+        font-weight: 700;
+        width: 100%;
+        justify-content: flex-end;
+    }
+
+    .c-header__logo {
+        width: 13.4%;
+        padding-left: 30px;
+    }
+
+    .c-header__extralink {
+        font-size: 1.4rem;
+        color: #fefefe;
+        margin-left: auto;
+        width: fit-content;
+        display: flex;
+        margin-bottom: 15px;
+    }
+
+    .c-header__inquiry {
+        color: #fff;
+        font-weight: 700;
+        width: 11.52%;
+        font-size: 1.6rem;
+        text-align: center;
+        padding: 21px 20px 20px;
+        background-color: #00be5a;
+    }
+
+    .c-header__mainnav {
+        width: 100%;
+        min-width: 632px;
+    }
+
+    .c-header__navlink {
+        &:not(:first-child) {
+            margin-left: -2px;
+            letter-spacing: -0.9px;
+        }
+
+        a {
+            padding: 23px 0;
+            display: block;
+            margin-right: 30px;
+        }
+    }
+
+    .c-header__arrowicon {
+        padding-left: 12px;
+    }
+}
+/* Main menu
+------------------------------------------------------------*/
