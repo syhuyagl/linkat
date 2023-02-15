@@ -12,6 +12,11 @@
         justify-content: space-between;
         background: #fff;
         align-items: center;
+        border-bottom-left-radius: 10px;
+        border-top-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-top-right-radius: 10px;
+
     }
 
     .c-header__navlinks {
@@ -45,6 +50,8 @@
         text-align: center;
         padding: 21px 20px 20px;
         background-color: #00be5a;
+        border-bottom-right-radius: 10px;
+        border-top-right-radius: 10px;
     }
 
     .c-header__mainnav {
@@ -61,7 +68,8 @@
         a {
             padding: 23px 0;
             display: block;
-            margin-right: 30px;
+            letter-spacing: 1px;
+            margin-right: 24px;
         }
     }
 
