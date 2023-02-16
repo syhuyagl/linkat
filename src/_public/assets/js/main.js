@@ -4,5 +4,7 @@ $(document).ready(function () {
     infinite: true,
     autoplay: true,
     arrows: true,
+    prevArrow: $(".c-arrow__left"),
+    nextArrow: $(".c-arrow__right"),
   });
 });

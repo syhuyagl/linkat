@@ -9,6 +9,7 @@ line
     background: #f4f6ed;
     background-image: url("../../assets/img/arrow-bg.png");
     background-size: 1358px;
+    position: relative;
 
     .c-use__title {
         color: #008037;
@@ -32,10 +33,8 @@ line
         padding: 33px 55px 40px;
         background: #fff;
         border-radius: 29px;
-
-        &:nth-child(3) {
-            padding: 33px 55px 47px;
-        }
+        height: 600px;
+       
     }
 
     .c-use__phone {
