@@ -5,6 +5,63 @@ line
 /*
 ------------------------------------------------------------*/
 .c-use {
+    padding: 100px 0;
+    background: #f4f6ed;
+    background-image: url("../../assets/img/arrow-bg.png");
+    background-size: 1358px;
 
+    .c-use__title {
+        color: #008037;
+    }
+
+    .c-use__subtitle {
+        color: #000;
+    }
+
+    .c-use__slidecontent {
+        display: flex;
+        transform: translateX(17px);
+        margin-top: 38px;
+    }
+
+    .c-use__slider {
+        margin-top: 57px;
+    }
+
+    .c-use__slide {
+        padding: 33px 55px 40px;
+        background: #fff;
+        border-radius: 29px;
+
+        &:nth-child(3) {
+            padding: 33px 55px 47px;
+        }
+    }
+
+    .c-use__phone {
+        width: 178px;
+        margin-right: 50px;
+    }
+
+    .c-use__bubble1 {
+        width: 206px;
+        margin-top: 75px;
+    }
+
+    .c-use__slidetitle {
+        font-size: 2.2rem;
+        color: #008037;
+        line-height: 1.75;
+    }
+
+    .c-use__slidedes {
+        font-size: 1.6rem;
+        font-weight: 400;
+        line-height: 1.68;
+        color: #000;
+    }
+
+    .c-use__slidecontent3 {
+        justify-content: center;
+    }
 }
-
