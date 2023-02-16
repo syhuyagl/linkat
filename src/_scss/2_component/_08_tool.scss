@@ -1,0 +1,103 @@
+/*------------------------------------------------------------
+list
+------------------------------------------------------------*/
+
+/*
+------------------------------------------------------------*/
+.c-tool {
+    background: #008037;
+    padding: 50px 0 11px;
+
+    .c-tool__header {
+        text-align: center;
+
+        img {
+            width: 489px;
+        }
+    }
+
+    .c-tool__subtitle {
+        margin-top: 30px;
+    }
+
+    .c-tool__items {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 50px;
+    }
+
+    .c-tool__item {
+        position: relative;
+        border: 6px solid #fff;
+        border-radius: 30px;
+        width: 27.5%;
+        margin: 0 43px 80px;
+        padding: 0 20px;
+
+        &:nth-child(3n + 1) {
+            margin-left: 0;
+        }
+
+        &:nth-child(3n) {
+            margin-right: 0;
+        }
+    }
+
+    .c-tool__label {
+        position: absolute;
+        font-size: 2.2rem;
+        background: #008037;
+        font-weight: 400;
+        color: #fff;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 81%;
+        max-width: 211px;
+        text-align: center;
+        line-height: 1.4;
+        padding-bottom: 11px;
+    }
+
+    .c-tool__icon {
+        width: 113px;
+        margin: 50px auto 45px;
+    }
+
+    .c-tool__text {
+        font-size: 1.6rem;
+        color: #fff;
+        position: relative;
+        line-height: 1.8;
+        padding-bottom: 23px;
+    }
+
+    .c-tool__cloud {
+        position: absolute;
+        width: 120px;
+        right: -17px;
+        top: 0;
+        transform: translate(50%, -100%);
+    }
+
+    .c-tool__phone {
+        width: 113px;
+    }
+
+    .c-tool__people {
+        width: 140px;
+    }
+
+    .c-tool__repair {
+        width: 137px;
+    }
+
+    .c-tool__task {
+        width: 81px;
+    }
+
+    .c-tool__chart {
+        width: 126px;
+    }
+}

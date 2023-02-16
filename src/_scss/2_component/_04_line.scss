@@ -5,18 +5,68 @@ form
 /*
 ------------------------------------------------------------*/
 .c-line {
+    padding: 60px 0;
+    background: #f4f6ed;
+    background-image: url("../../assets/img/arrow-bg.png");
+    background-size: 1358px;
+
     .c-line__img {
-        width: 396px;
+        width: 50%;
+        padding-right: 73px;
+        padding-left: 51px;
+    }
+
+    .c-line__content {
+        width: 50%;
+        padding: 30px 58px 43px 26px;
+    }
+
+    .c-line__header {
+        text-align: center;
+
+        img {
+            width: 546px;
+        }
+    }
+
+    .c-line__subtitle {
+        color: #000;
+    }
+
+    .c-line__items {
+        margin-top: 28px;
+        padding: 34px 0 22px;
     }
 
     .c-line__item {
         display: flex;
+        background: #fff;
+        border-radius: 30px;
+        padding: 34px 0 22px;
+        margin-bottom: 33px;
+
+        &:nth-last-child(-n + 1) {
+            margin-bottom: 0;
+        }
+
+        &:nth-child(2n) {
+            flex-direction: row-reverse;
+
+            .c-line__content {
+                padding: 30px 5px 43px 50px;
+            }
+
+            .c-line__p {
+                padding-right: 15px;
+            }
+        }
     }
 
     .c-line__ititle {
         font-size: 2.6rem;
         color: #008037;
-        font-weight: 400;
+        font-weight: 700;
+        font-feature-settings: "palt" 1;
     }
 
     .c-line__p {
@@ -24,5 +74,6 @@ form
         font-size: 1.6rem;
         color: #000;
         line-height: 1.8;
+        margin-top: 28px;
     }
 }
