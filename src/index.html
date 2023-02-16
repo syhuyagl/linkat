@@ -1,16 +1,99 @@
 <%- include('_layouts/layout', { title: 'Home page' }); -%>
 
 <!-- @meta -->
-<meta name="description" content="Home page">
+<meta name="description" content="Home page" />
 <!-- @@meta -->
 
 <!-- @content -->
 <main class="p-top">
   <section class="c-mainvisual">
     <div class="c-mainvisual__inner">
-        <img src="./assets/img/mv.jpg" alt="">
+      <img src="./assets/img/mv.jpg" alt="" />
     </div>
   </section>
+  <%- include('_partials/mechanism'); -%>
+
+  <!-- Banner -->
+  <div class="c-banner">
+    <div class="l-container">
+      <div class="c-banner__content">
+        <div class="c-banner__price">
+          <img src="./assets/img/price.png" alt="" />
+        </div>
+        <div class="c-banner__btns">
+          <div class="c-banner__btn">
+            <img src="./assets/img/btn-1.png" alt="" />
+          </div>
+          <div class="c-banner__btn">
+            <img src="./assets/img/btn-1.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Section-3-item -->
+  <div class="c-line">
+    <div class="c-line__items">
+      <div class="c-line__item">
+        <div class="c-line__img">
+          <img src="./assets/img/section-3-1.png" alt="" />
+        </div>
+        <div class="c-line__content">
+          <h3 class="c-line__ititle">
+            お客様ごとに 最適化された情報をお届け!!
+          </h3>
+          <p class="c-line__p">
+            お客様ごとに、求める情報や適切なコミュニケーションの頻度は違います。<br />
+            LikATは、お客様の属性(年齢や性別、居住エリアなど)や行動(クーポンの利用やLINEを通じたサイトへの訪問)などに応じて、お客様が「今欲しい情報」をお届けすることができます。
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- section-6-item -->
+  <div class="c-plan">
+    <div class="c-plan__items">
+      <div class="c-plan__item">
+        <div class="c-plan__icon">
+          <img src="./assets/img/section-5-1.svg" alt="" />
+        </div>
+        <span class="c-plan__iconlabel">自動返信機能</span>
+        <p class="c-plan__p">
+          お友だちの特定のアクションへメッセージを自動的に返信知りたい情報を即時に返信することでお客様満足度アップ
+        </p>
+      </div>
+    </div>
+  </div>
+  <!-- Table -->
+  <div class="l-container">
+    <table class="c-table">
+      <thead>
+        <tr>
+          <th></th>
+          <th class="c-table__head c-table__head1">スタートプラン</th>
+          <th class="c-table__head c-table__head2">ベーシックプラン</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th class="c-table__th">初期費用</th>
+          <td class="c-table__td c-table__start">0円</td>
+          <td class="c-table__td c-table__basic">0円</td>
+        </tr>
+        <tr>
+          <th class="c-table__th">送信可能通数</th>
+          <td class="c-table__td c-table__start">1000通</td>
+          <td class="c-table__td c-table__basic">無制限</td>
+        </tr>
+        <tr>
+          <th class="c-table__th">金額</th>
+          <td class="c-table__td c-table__start">2,700円</td>
+          <td class="c-table__td c-table__basic">20,000円</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
 </main>
 <!-- @@content -->
 
