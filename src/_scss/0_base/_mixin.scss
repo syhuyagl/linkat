@@ -25,6 +25,11 @@
         @content;
     }
 }
+@mixin large-medium {
+    @media only screen and (max-width: 1120px) {
+        @content;
+    }
+}
 @mixin medium {
     @media only screen and (max-width: 1085px) {
         @content;
