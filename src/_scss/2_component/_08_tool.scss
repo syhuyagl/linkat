@@ -42,6 +42,9 @@ list
         &:nth-child(3n) {
             margin-right: 0;
         }
+        &:nth-child(n+4){
+            transform: translateX(20px);
+        }
         @include large-medium {
             width: 25%;
         }
