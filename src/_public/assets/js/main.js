@@ -14,11 +14,11 @@ $(document).ready(function () {
 
     if (answer.hasClass("c-faq__answer--expand")) {
       answer.removeClass("c-faq__answer--expand");
-      $(this).find('.c-faq__icon').attr("src", icon_open);
+      $(this).find('.c-faq__icon').attr("src", icon_close);
       answer.slideUp();
     } else {
       answer.addClass("c-faq__answer--expand");
-      $(this).find('.c-faq__icon').attr("src", icon_close);
+      $(this).find('.c-faq__icon').attr("src", icon_open);
       answer.slideDown();
     }
   });

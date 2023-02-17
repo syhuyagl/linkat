@@ -1,0 +1,83 @@
+.c-inquiry {
+    background: #008037;
+    padding: 74px 0 100px;
+
+    .c-inquiry__subtitle {
+        color: #fff;
+        font-size: 1.6rem;
+        font-weight: 400;
+        max-width: 726px;
+        margin: 20px auto 0;
+    }
+
+    .c-inquiry__time {
+        max-width: 330px;
+        margin: 32px auto 48px;
+        color: #fff;
+        text-align: center;
+        border-left: 4px solid #fff;
+        border-right: 4px solid #fff;
+    }
+
+    .c-inquiry__label {
+        font-weight: 700;
+        font-size: 2.2rem;
+        line-height: 1.73;
+    }
+
+    .c-inquiry__hour {
+        font-weight: 700;
+        font-size: 2.8rem;
+        line-height: 1.36;
+    }
+
+    .c-inquiry__day {
+        font-size: 1.6rem;
+        font-weight: 400;
+        line-height: 1.5;
+    }
+
+    .c-inquiry__linktitle {
+        font-size: 2.6rem;
+        line-height: 1.19;
+        font-weight: 700;
+        letter-spacing: 0.04em;
+        color: #008037;
+        margin-top: 28px;
+        margin-bottom: 30px;
+    }
+
+    .c-inquiry__linknote {
+        text-align: center;
+        font-size: 1.5rem;
+        color: #707070;
+        margin-top: 32px;
+        line-height: 1.3;
+    }
+
+    .c-inquiry__links {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 28px;
+    }
+
+    .c-inquiry__link {
+        background: #fff;
+        border-radius: 10px;
+        width: 49.2%;
+        text-align: center;
+        padding: 41px 0 42px;
+    }
+
+    .c-inquiry__newicon {
+        width: 45px;
+    }
+
+    .c-inquiry__oldicon {
+        width: 72px;
+    }
+
+    .c-inquiry__btn {
+        width: 386px;
+    }
+}
