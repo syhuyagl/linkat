@@ -1,0 +1,27 @@
+.c-qr {
+    padding: 91px 0 82px;
+    background: #f4f6ed;
+    background-image: url("../../assets/img/arrow-bg.png");
+    background-size: 1358px;
+
+    .c-qr__title {
+        color: #008037;
+    }
+
+    .c-qr__qr {
+        text-align: center;
+
+        img {
+            width: 234px;
+        }
+    }
+
+    .c-qr__subtitle {
+        color: #000;
+        font-size: 1.6rem;
+        font-weight: 400;
+        margin-top: 20px;
+        margin-bottom: 42px;
+    }
+
+}
