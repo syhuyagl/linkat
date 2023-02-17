@@ -8,16 +8,26 @@
     }
 
     .c-future__items {
+        margin-top: 33px;
+        margin-bottom: 50px;
         display: flex;
         flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 0 30px;
     }
 
     .c-future__item {
         background: #fff;
         border-radius: 5px;
-        width: 24%;
+        width: 24.5%;
         text-align: center;
         padding: 30px 15px 0;
+        display: flex;
+        flex-direction: column;
+
+        &:nth-child(n+5) {
+            margin-top: 7px;
+        }
     }
 
     .c-future__iconlabel {
@@ -25,11 +35,28 @@
         font-size: 1.6rem;
         color: #000;
         line-height: 2.06;
+        margin-top: auto;
+        font-feature-settings: "palt" 1;
     }
 
     .c-future__p {
         font-size: 1.4rem;
         font-weight: 400;
         line-height: 1.78;
+        text-align: left;
+    }
+
+    .c-future__iconwrapper {
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .c-future_note {
+        text-align: center;
+        font-weight: 400;
+        font-size: 1.6rem;
+        line-height: 1.82;
+        color: #fff;
     }
 }

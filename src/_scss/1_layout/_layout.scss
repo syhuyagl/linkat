@@ -26,6 +26,12 @@ body {
     width: 22px;
     position: absolute;
     top: 51.4%;
+    cursor: pointer;
+    transition: 0.4s;
+
+    &:hover {
+        opacity: 0.7;
+    }
 }
 
 .c-arrow__left {

@@ -9,7 +9,6 @@ line
     background: #f4f6ed;
     background-image: url("../../assets/img/arrow-bg.png");
     background-size: 1358px;
-    position: relative;
 
     .c-use__title {
         color: #008037;
@@ -62,5 +61,11 @@ line
 
     .c-use__slidecontent3 {
         justify-content: center;
+    }
+
+    .c-slider__wrapper {
+        max-width: 1366px;
+        margin: 0 auto;
+        position: relative;
     }
 }
