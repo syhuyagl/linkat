@@ -74,4 +74,14 @@ footer
         font-weight: 400;
         text-align: center;
     }
+
+    .c-footer__exlink {
+        img {
+            width: 27px;
+        }
+
+        &:nth-child(2) {
+            margin-left: 15px;
+        }
+    }
 }

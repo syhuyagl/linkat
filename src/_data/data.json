@@ -3,31 +3,31 @@
     "main": [
       {
         "title": "LinkATにできること",
-        "url": "/"
+        "url": "#about"
       },
       {
         "title": "機能一覧",
-        "url": "/about.html"
+        "url": "#function"
       },
       {
         "title": "料金プラン",
-        "url": "/nested/"
+        "url": "#price"
       },
       {
         "title": "ご導入まで",
-        "url": "/nested/"
+        "url": "#flow"
       },
       {
         "title": "LinkATを体験する",
-        "url": "/nested/"
+        "url": "#demo"
       },
       {
         "title": "よくあるご質問",
-        "url": "/nested/"
+        "url": "#faq"
       },
       {
         "title": "公式ブログ",
-        "url": "/nested/"
+        "url": "./"
       }
     ]
   }
