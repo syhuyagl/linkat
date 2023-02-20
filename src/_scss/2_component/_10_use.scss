@@ -19,6 +19,7 @@ line
         @include sp {
             font-size: 2rem;
             padding: 0 10px;
+            margin-top: 22px;
         }
     }
 
@@ -38,6 +39,7 @@ line
             padding: 0 50px;
         }
         @include sp {
+            margin-top: 15px;
             padding: 0 24px;
         }
     }

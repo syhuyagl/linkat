@@ -11,7 +11,7 @@
         line-height: 1.81;
         @include sp {
             font-size: 2rem;
-            pad: 0 10px;
+            padding: 0 10px;
         }
     }
 
@@ -28,13 +28,13 @@
     }
 
     .c-inquiry__label {
-        font-weight: 700;
+        font-weight: 900;
         font-size: 2.2rem;
         line-height: 1.73;
     }
 
     .c-inquiry__hour {
-        font-weight: 700;
+        font-weight: 900;
         font-size: 2.8rem;
         line-height: 1.36;
     }

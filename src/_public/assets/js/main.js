@@ -62,4 +62,15 @@ $(document).ready(function () {
       "1000"
     );
   });
+  $(".c-footer__link").click(function () {
+    var href = $(this).attr("href");
+    $(".c-header__overlay").removeClass("c-header__overlay--active");
+    enableScroll()
+    $("html, body").animate(
+      {
+        scrollTop: $(href).offset().top,
+      },
+      "1000"
+    );
+  });
 });

@@ -53,7 +53,6 @@ table
         padding-bottom: 14px;
         padding-left: 5px;
         border-bottom: 1px solid #ccc;
-        cursor: pointer;
 
         &:not(:first-child) {
             padding-top: 25px;
@@ -63,6 +62,7 @@ table
     .c-faq__question {
         display: flex;
         align-items: center;
+        cursor: pointer;
 
         &::before {
             content: "";
