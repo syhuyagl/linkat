@@ -14,11 +14,20 @@ form
         width: 50%;
         padding-right: 73px;
         padding-left: 51px;
+        @include tab {
+            width: 100%;
+        }
     }
 
     .c-line__content {
         width: 50%;
         padding: 30px 58px 43px 26px;
+        @include tab {
+            width: 100%;
+        }
+        @include sp {
+            padding: 30px 18px 43px;
+        }
     }
 
     .c-line__header {
@@ -27,15 +36,30 @@ form
         img {
             width: 546px;
         }
+        @include sp {
+            img {
+                width: 328px;
+            }
+        }
     }
 
     .c-line__subtitle {
         color: #000;
+        @include sp {
+            margin-top: 15px;
+        }
     }
 
     .c-line__items {
         margin-top: 28px;
         padding: 34px 0 22px;
+        @include tab {
+            max-width: 768px;
+            margin: 28px auto 0;
+        }
+        @include sp {
+            padding: 0 26px;
+        }
     }
 
     .c-line__item {
@@ -60,13 +84,60 @@ form
                 padding-right: 15px;
             }
         }
+
+        &:nth-child(3) {
+            .c-line__img {
+                padding-top: 46px;
+            }
+        }
+        @include tab {
+            flex-direction: column;
+
+            &:nth-child(2n) {
+                flex-direction: column;
+
+                .c-line__content {
+                    padding: 30px 5px 43px 50px;
+                }
+
+                .c-line__p {
+                    padding-right: 15px;
+                }
+            }
+        }
+        @include sp {
+            flex-direction: column;
+
+            &:nth-child(2n) {
+                flex-direction: column;
+
+                .c-line__content {
+                    padding: 30px 18px 43px;
+                }
+
+                .c-line__p {
+                    padding-right: 0;
+                }
+            }
+
+            &:nth-child(3) {
+                .c-line__img {
+                    padding-top: 10px;
+                }
+            }
+        }
+
+       
     }
 
     .c-line__ititle {
         font-size: 2.6rem;
         color: #008037;
-        font-weight: 700;
+        font-weight: 900;
         font-feature-settings: "palt" 1;
+        @include sp {
+            font-size: 1.7rem;
+        }
     }
 
     .c-line__p {
@@ -75,5 +146,8 @@ form
         color: #000;
         line-height: 1.8;
         margin-top: 28px;
+        @include sp {
+            font-size: 1.1rem;
+        }
     }
 }

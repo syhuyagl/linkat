@@ -60,6 +60,9 @@
         display: flex;
         justify-content: space-between;
         padding: 0 28px;
+        @include sp {
+            flex-direction: column;
+        }
     }
 
     .c-inquiry__link {
@@ -68,6 +71,9 @@
         width: 49.2%;
         text-align: center;
         padding: 41px 0 42px;
+        @include sp {
+            width: 100%;
+        }
     }
 
     .c-inquiry__newicon {
@@ -80,5 +86,8 @@
 
     .c-inquiry__btn {
         width: 386px;
+        @include sp {
+            width: 200px;
+        }
     }
 }

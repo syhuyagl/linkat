@@ -6,6 +6,10 @@
     .c-flow__wrapper {
         display: flex;
         justify-content: space-between;
+        @include sp {
+            align-items: center;
+            padding: 0 26px;
+        }
     }
 
     .c-flow__left {
@@ -16,6 +20,9 @@
 
     .c-flow__right {
         width: 64%;
+        @include sp {
+            width: 100%;
+        }
     }
 
     .c-flow__items {
@@ -43,6 +50,19 @@
                 }
             }
         }
+        @include sp {
+            &:not(:first-child) {
+                .c-flow__content {
+                    padding-top: 0;
+                }
+            }
+        }
+    }
+
+    .c-flow__wrapper {
+        @include sp {
+            flex-direction: column;
+        }
     }
 
     .c-flow__icon {
@@ -63,6 +83,13 @@
         img {
             width: 152px;
         }
+        @include sp {
+            margin-right: 20px;
+
+            img {
+                min-width: 103px;
+            }
+        }
     }
 
     .c-flow__cheader {
@@ -72,6 +99,11 @@
         img {
             width: 43px;
         }
+        @include sp {
+            img {
+                width: 30px;
+            }
+        }
     }
 
     .c-flow__ititle {
@@ -80,6 +112,11 @@
         margin-left: 19px;
         line-height: 0.8;
         margin-top: 13px;
+        @include sp {
+            margin-left: 9px;
+            font-size: calc(2.8rem * 0.75);
+            margin-top: 10px;
+        }
     }
 
     .c-flow__text {

@@ -16,16 +16,29 @@ line
 
     .c-use__subtitle {
         color: #000;
+        @include sp {
+            font-size: 2rem;
+        }
     }
 
     .c-use__slidecontent {
         display: flex;
         transform: translateX(17px);
         margin-top: 38px;
+        @include sp {
+            margin-top: 24px;
+            transform: none;
+        }
     }
 
     .c-use__slider {
         margin-top: 57px;
+        @include tab {
+            padding: 0 50px;
+        }
+        @include sp {
+            padding: 0 24px;
+        }
     }
 
     .c-use__slide {
@@ -33,23 +46,37 @@ line
         background: #fff;
         border-radius: 29px;
         height: 600px;
-       
+        @include sp {
+            padding: 18px;
+            height: 358px;
+        }
     }
 
     .c-use__phone {
         width: 178px;
         margin-right: 50px;
+        @include sp {
+            width: 60px;
+            margin-right: 14px;
+        }
     }
 
     .c-use__bubble1 {
         width: 206px;
         margin-top: 75px;
+        @include sp {
+            margin-top: 0;
+            width: 68px;
+        }
     }
 
     .c-use__slidetitle {
         font-size: 2.2rem;
         color: #008037;
         line-height: 1.75;
+        @include sp {
+            font-size: 1.9rem;
+        }
     }
 
     .c-use__slidedes {
@@ -57,6 +84,9 @@ line
         font-weight: 400;
         line-height: 1.68;
         color: #000;
+        @include sp {
+            font-size: 1.2rem;
+        }
     }
 
     .c-use__slidecontent3 {

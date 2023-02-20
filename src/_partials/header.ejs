@@ -1,5 +1,5 @@
 <header class="c-header">
-  <div class="l-container--1100">
+  <div class="l-container--1100 is-pc">
     <div class="c-header__extralink">
       <a href="#">管理画面ログイン</a>
     </div>
@@ -18,5 +18,40 @@
       </nav>
       <a class="c-header__inquiry" href="#">新規プランお申込み</a>
     </div>
+  </div>
+  <div class="c-menu is-sp">
+
+  </div>
+  <div class="c-header__overlay">
+    <nav class="c-header__mainnav">
+      <ul class="c-header__navlinks">
+        <% if (typeof linklists != 'undefined') { %>
+          <% linklists.main && linklists.main.forEach(link => { %>
+            <li class="c-header__navlink">
+              <a <% if (link.current || link.active) { %>class="is-active"<% } %> href="<%= link.url %>"><%= link.title %></a>
+            </li>
+          <% }) %>
+        <% } %>
+      </ul>
+      <div class="c-header__overlaybtns">
+          <a href="#" class="c-header__overlaybtn">
+              <img src="./assets/img/" alt="">
+          </a>
+          <a href="#" class="c-header__overlaybtn">
+            <img src="./assets/img/" alt="">
+          </a>
+          <a href="#" class="c-header__overlaybtn">
+            <img src="./assets/img/" alt="">
+          </a>
+      </div>
+      <div class="c-header__overlaysns">
+          <a href="#" target="_blank" class="c-header__overlayicon">
+            <img src="" alt="">
+          </a>
+          <a href="#" target="_blank" class="c-header__overlayicon">
+            <img src="" alt="">
+          </a>
+      </div>
+    </nav>
   </div>
 </header>

@@ -9,6 +9,9 @@ text
     background: #f4f6ed;
     background-image: url("../../assets/img/arrow-bg.png");
     background-size: 1358px;
+    @include tab {
+        padding: 100px 25px 60px;
+    }
 
     .c-cost__title {
         color: #008037;
@@ -32,6 +35,9 @@ text
         justify-content: space-between;
         margin-top: 48px;
         margin-bottom: 70px;
+        @include sp {
+            flex-direction: column;
+        }
     }
 
     .c-cost__label {
@@ -51,6 +57,9 @@ text
         img {
             width: 310px;
             margin-top: 24px;
+        }
+        @include sp {
+            width: 100%;
         }
     }
 
@@ -86,6 +95,9 @@ text
             color: #000;
             line-height: 1.16;
             margin: 20px auto 18px;
+        }
+        @include sp {
+            width: 100%;
         }
     }
 

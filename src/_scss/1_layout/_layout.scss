@@ -23,6 +23,23 @@ body {
     width: 100%;
 }
 
+.is-pc {
+    display: block;
+    @include tab {
+        display: none;
+    }
+}
+
+.is-sp {
+    display: none;
+    @include tab {
+        display: none;
+    }
+    @include sp {
+        display: block;
+    }
+}
+
 .c-arrow {
     width: 22px;
     position: absolute;
@@ -33,12 +50,21 @@ body {
     &:hover {
         opacity: 0.7;
     }
+    @include sp {
+        width: 11px;
+    }
 }
 
 .c-arrow__left {
     left: 7.1%;
+    @include tab {
+        left: 1.1%;
+    }
 }
 
 .c-arrow__right {
     right: 7.1%;
+    @include tab {
+        right: 1.1%;
+    }
 }

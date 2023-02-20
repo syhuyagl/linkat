@@ -9,16 +9,23 @@ img
     font-size: 3.5rem;
     color: #fcee21;
     letter-spacing: 0.04em;
-    font-weight: 700;
+    font-weight: 900;
     text-align: center;
     line-height: 1.2;
+    @include sp {
+        font-size: 2.7rem;
+        
+    }
 }
 
 .c-subtitle {
     font-size: 2.6rem;
-    font-weight: 700;
+    font-weight: 900;
     letter-spacing: 0.04em;
     line-height: 1.19;
     text-align: center;
     color: #fff;
+    @include sp {
+        font-size: 1.7rem;
+    }
 }
