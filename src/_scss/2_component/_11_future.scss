@@ -7,6 +7,9 @@
         font-weight: 400;
         color: #fff;
         margin-top: 20px;
+        @include sp {
+            padding: 0 10px;
+        }
     }
 
     .c-future__icon {
@@ -21,7 +24,7 @@
         flex-wrap: wrap;
         justify-content: space-between;
         padding: 0 30px;
-        @include sp{
+        @include sp {
             max-width: 600px;
             margin: 33px auto;
         }
@@ -48,6 +51,8 @@
         }
         @include sp {
             padding: 30px 4px 35px;
+            max-width: 249px;
+            border-radius: 3px;
 
             &:nth-child(n + 3) {
                 margin-top: 3px;
@@ -93,6 +98,7 @@
         margin: 0 auto;
         @include sp {
             font-size: 1.2rem;
+            padding: 0 10px;
         }
     }
 }

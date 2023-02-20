@@ -18,6 +18,7 @@ line
         color: #000;
         @include sp {
             font-size: 2rem;
+            padding: 0 10px;
         }
     }
 
@@ -74,6 +75,7 @@ line
         font-size: 2.2rem;
         color: #008037;
         line-height: 1.75;
+        font-weight: 900;
         @include sp {
             font-size: 1.9rem;
         }
@@ -97,7 +99,7 @@ line
         max-width: 1366px;
         margin: 0 auto;
         position: relative;
-        @include sp{
+        @include sp {
             max-width: 375px;
         }
     }

@@ -13,13 +13,18 @@ table
         padding: 82px 25px 100px;
     }
 
+    .c-faq__title {
+        color: #008037;
+        margin-bottom: 48px;
+    }
+
     .c-faq__topicitems {
         background: #fff;
-        padding: 82px 47px;
+        padding: 47px 82px;
         border-radius: 30px;
         @include sp {
-        border-radius: 15px;
-        padding: 22px 10px;
+            border-radius: 15px;
+            padding: 22px 10px;
         }
     }
 
@@ -48,6 +53,7 @@ table
         padding-bottom: 14px;
         padding-left: 5px;
         border-bottom: 1px solid #ccc;
+        cursor: pointer;
 
         &:not(:first-child) {
             padding-top: 25px;

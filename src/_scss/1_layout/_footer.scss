@@ -48,6 +48,31 @@ footer
             font-weight: 400;
             line-height: 1.2;
             border-right: 0;
+            padding-top: 4px;
+
+            .c-footer__link {
+                margin-bottom: 15px;
+                display: block;
+            }
+        }
+        @include tab {
+            width: 50%;
+            flex-direction: column;
+            display: flex;
+            margin-top: 16px;
+            align-items: center;
+            border-bottom: 1px solid #fff;
+            border-right: 0;
+
+            li {
+                padding-left: 0;
+            }
+
+            &:first-child {
+                li {
+                    padding-left: 0;
+                }
+            }
         }
     }
 
@@ -56,6 +81,11 @@ footer
         display: flex;
         width: 59.4%;
         justify-content: space-between;
+        @include tab {
+            flex-direction: column;
+            width: 100%;
+            align-items: center;
+        }
     }
 
     .c-footer__btns {
@@ -92,6 +122,11 @@ footer
 
         &:nth-child(2) {
             margin-left: 15px;
+        }
+        @include tab {
+            img {
+                margin-bottom: 9px;
+            }
         }
     }
 }

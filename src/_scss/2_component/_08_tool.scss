@@ -61,12 +61,16 @@ list
         @include medium {
             width: 25%;
         }
+        @include tab {
+            margin: 0 32px 80px;
+        }
         @include sp {
             width: 37.4%;
             margin: 0 15px 30px;
             padding: 0 9px;
             border-width: 3px;
             border-radius: 15px;
+            max-width: 201px;
 
             &:nth-child(n + 4) {
                 transform: none;

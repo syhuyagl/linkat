@@ -3,7 +3,6 @@
 body {
     font-family: $main-fonts;
     font-size: 1.4rem;
-    min-width: $base-width;
     line-height: 1.5;
     @include sp {
         min-width: 320px;
@@ -39,18 +38,21 @@ body {
         display: block;
     }
 }
-.is-tab{
+
+.is-tab {
     display: none;
-    @include tab{
+    @include tab {
         display: block;
     }
 }
+
 .c-arrow {
     width: 22px;
     position: absolute;
     top: 51.4%;
     cursor: pointer;
     transition: 0.4s;
+    z-index: 10;
 
     &:hover {
         opacity: 0.7;
@@ -62,6 +64,9 @@ body {
 
 .c-arrow__left {
     left: 7.1%;
+    @include medium {
+        left: 2.1%;
+    }
     @include tab {
         left: 1.1%;
     }
@@ -69,6 +74,9 @@ body {
 
 .c-arrow__right {
     right: 7.1%;
+    @include medium {
+        right: 2.1%;
+    }
     @include tab {
         right: 1.1%;
     }

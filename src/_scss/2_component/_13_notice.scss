@@ -5,6 +5,10 @@
         padding: 100px 25px;
 
     }
+    @include sp {
+        padding: 50px 25px;
+
+    }
 
     .c-notice__items {
         background: #fff;
@@ -12,7 +16,7 @@
         padding: 30px 86px 47px;
         margin-top: 50px;
         @include sp {
-        border-radius:15px;
+            border-radius: 15px;
 
             padding: 7px 10px 28px;
         }

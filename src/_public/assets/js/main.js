@@ -59,7 +59,7 @@ $(document).ready(function () {
       {
         scrollTop: $(href).offset().top,
       },
-      "300"
+      "1000"
     );
   });
 });
