@@ -33,8 +33,9 @@ list
         flex-wrap: wrap;
         justify-content: center;
         margin-top: 50px;
-        @include tab {
-            flex-direction: column;
+        @include sp {
+            max-width: 587px;
+            margin: 50px auto 0;
         }
     }
 
@@ -54,11 +55,31 @@ list
             margin-right: 0;
         }
 
-        &:nth-child(n+4) {
+        &:nth-child(n + 4) {
             transform: translateX(20px);
         }
-        @include large-medium {
+        @include medium {
             width: 25%;
+        }
+        @include sp {
+            width: 37.4%;
+            margin: 0 15px 30px;
+            padding: 0 9px;
+            border-width: 3px;
+            border-radius: 15px;
+
+            &:nth-child(n + 4) {
+                transform: none;
+            }
+
+            &:nth-child(3n) {
+                margin-right: 15px;
+                margin-left: 0;
+            }
+
+            &:nth-child(4) {
+                margin-left: 15px;
+            }
         }
     }
 
@@ -66,7 +87,7 @@ list
         position: absolute;
         font-size: 2.2rem;
         background: #008037;
-        font-weight: 400;
+        font-weight: 900;
         color: #fff;
         top: 0;
         left: 50%;
@@ -76,6 +97,9 @@ list
         text-align: center;
         line-height: 1.4;
         padding-bottom: 11px;
+        @include sp {
+            font-size: 1.5rem;
+        }
     }
 
     .c-tool__icon {
@@ -89,6 +113,9 @@ list
         position: relative;
         line-height: 1.8;
         padding-bottom: 23px;
+        @include sp {
+            font-size: 1.1rem;
+        }
     }
 
     .c-tool__cloud {
@@ -97,25 +124,48 @@ list
         right: -17px;
         top: 0;
         transform: translate(50%, -100%);
+        @include tab {
+            width: 98px;
+            right: -8px;
+        }
+        @include sp {
+            width: 60px;
+            right: -13px;
+        }
     }
 
     .c-tool__phone {
         width: 113px;
+        @include sp {
+            width: 57px;
+        }
     }
 
     .c-tool__people {
         width: 140px;
+        @include sp {
+            width: 70px;
+        }
     }
 
     .c-tool__repair {
         width: 137px;
+        @include sp {
+            width: 69px;
+        }
     }
 
     .c-tool__task {
         width: 81px;
+        @include sp {
+            width: 41px;
+        }
     }
 
     .c-tool__chart {
         width: 126px;
+        @include sp {
+            width: 63px;
+        }
     }
 }

@@ -7,11 +7,18 @@ footer
 
     .c-footer__logo {
         width: 328px;
+        @include sp {
+            width: 180px;
+        }
     }
 
     .c-footer__top {
         display: flex;
         justify-content: space-between;
+        @include tab {
+            flex-direction: column;
+            align-items: center;
+        }
     }
 
     .c-footer__links {
@@ -73,6 +80,9 @@ footer
         color: #fff;
         font-weight: 400;
         text-align: center;
+        @include tab {
+            margin-top: 20px;
+        }
     }
 
     .c-footer__exlink {

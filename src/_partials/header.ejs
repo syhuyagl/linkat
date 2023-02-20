@@ -4,7 +4,7 @@
       <a href="#">管理画面ログイン</a>
     </div>
     <div class="c-header__main">
-      <div class="c-header__logo"><a href="index.html"><img src="/assets/img/logo.png" alt="LinkAT"></a></div>
+      <div class="c-header__logo"><a href="index.html"><img src="./assets/img/logo.png" alt="LinkAT"></a></div>
       <nav class="c-header__mainnav">
         <ul class="c-header__navlinks">
           <% if (typeof linklists != 'undefined') { %>
@@ -23,6 +23,15 @@
 
   </div>
   <div class="c-header__overlay">
+    <div class="c-header__overlaytop">
+      <a href="#" class="c-header__overlaylogo">
+        <img src="./assets/img/overlay-logo.png" alt="LinkAT">
+      </a>
+      <div class="c-header__close c-header__menuicon">
+        <img src="./assets/img/menu_close.svg" alt="LinkAT">
+      </div>
+    </div>
+   
     <nav class="c-header__mainnav">
       <ul class="c-header__navlinks">
         <% if (typeof linklists != 'undefined') { %>
@@ -35,23 +44,29 @@
       </ul>
       <div class="c-header__overlaybtns">
           <a href="#" class="c-header__overlaybtn">
-              <img src="./assets/img/" alt="">
+              <img src="./assets/img/btn-1.png" alt="LinkAT">
           </a>
           <a href="#" class="c-header__overlaybtn">
-            <img src="./assets/img/" alt="">
+            <img src="./assets/img/btn-2.png" alt="LinkAT">
           </a>
-          <a href="#" class="c-header__overlaybtn">
-            <img src="./assets/img/" alt="">
+          <a href="#" class="c-header__overlaybtn c-header__admin">
+            管理画面ログイン
           </a>
       </div>
       <div class="c-header__overlaysns">
-          <a href="#" target="_blank" class="c-header__overlayicon">
-            <img src="" alt="">
+          <a href="https://twitter.com/linkatcgte" target="_blank" class="c-header__overlayicon">
+            <img src="./assets/img/tw.svg" alt="LinkAT">
           </a>
-          <a href="#" target="_blank" class="c-header__overlayicon">
-            <img src="" alt="">
+          <a href="https://www.youtube.com/@linkat7288/featured" target="_blank" class="c-header__overlayicon">
+            <img src="./assets/img/ytb.svg" alt="LinkAT">
           </a>
       </div>
     </nav>
   </div>
+  <div class="is-tab">
+    <div class="c-header__menu c-header__menuicon">
+      <img src="./assets/img/menu_open.svg" alt="">
+  </div>
+  </div>
+  
 </header>

@@ -12,7 +12,9 @@
         padding: 30px 86px 47px;
         margin-top: 50px;
         @include sp {
-            padding: 0 10px;
+        border-radius:15px;
+
+            padding: 7px 10px 28px;
         }
     }
 

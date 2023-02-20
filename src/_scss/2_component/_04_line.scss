@@ -59,6 +59,7 @@ form
         }
         @include sp {
             padding: 0 26px;
+            max-width: 400px;
         }
     }
 
@@ -107,6 +108,7 @@ form
         }
         @include sp {
             flex-direction: column;
+            border-radius: 15px;
 
             &:nth-child(2n) {
                 flex-direction: column;

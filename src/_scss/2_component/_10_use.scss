@@ -97,5 +97,8 @@ line
         max-width: 1366px;
         margin: 0 auto;
         position: relative;
+        @include sp{
+            max-width: 375px;
+        }
     }
 }

@@ -24,13 +24,15 @@ title
             flex-direction: column;
         }
         @include sp {
-            padding: 17px 50px;
+            padding: 17px 15px;
         }
     }
 
     .c-banner__btns {
         display: flex;
-
+        @include sp {
+            margin-top: 18px;
+        }
     }
 
     .c-banner__btn {
@@ -40,7 +42,8 @@ title
             margin-right: 23px;
         }
         @include sp {
-            width: 161px;
+            max-width: 161px;
+            width: 50%;
         }
     }
 

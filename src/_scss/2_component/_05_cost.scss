@@ -5,112 +5,140 @@ text
 /*
 ------------------------------------------------------------*/
 .c-cost {
-    padding: 100px 0 60px;
-    background: #f4f6ed;
-    background-image: url("../../assets/img/arrow-bg.png");
-    background-size: 1358px;
-    @include tab {
-        padding: 100px 25px 60px;
-    }
+  padding: 100px 0 60px;
+  background: #f4f6ed;
+  background-image: url("../../assets/img/arrow-bg.png");
+  background-size: 1358px;
+  @include tab {
+    padding: 100px 25px 60px;
+  }
+  @include sp {
+    padding: 50px 25px 30px;
+  }
 
-    .c-cost__title {
-        color: #008037;
-    }
+  .c-cost__title {
+    color: #008037;
+  }
 
-    .c-cost__subtitle {
-        color: #000;
-        font-size: 1.6rem;
-        font-weight: 400;
-        margin-top: 28px;
-    }
+  .c-cost__subtitle {
+    color: #000;
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin-top: 28px;
+  }
 
-    .c-cost__subtitle2 {
-        margin-top: 17px;
-        line-height: 1.8;
-        margin-bottom: 29px;
-    }
+  .c-cost__subtitle2 {
+    margin-top: 17px;
+    line-height: 1.8;
+    margin-bottom: 29px;
+  }
 
-    .c-cost__intro {
-        display: flex;
-        justify-content: space-between;
-        margin-top: 48px;
-        margin-bottom: 70px;
-        @include sp {
-            flex-direction: column;
-        }
+  .c-cost__intro {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 48px;
+    margin-bottom: 70px;
+    @include sp {
+      flex-direction: column;
+      align-items: center;
+      max-width: 500px;
+      margin: 48px auto 70px;
     }
+  }
+
+  .c-cost__label {
+    font-size: 2.6rem;
+    line-height: 1.2;
+    color: #00be5a;
+    font-weight: 700;
+    @include sp {
+      font-size: calc(2.6rem * 0.75);
+    }
+  }
+
+  .c-cost__monthly {
+    background: #fff;
+    border-radius: 17px;
+    width: 45.5%;
+    text-align: center;
+    padding: 22px 0;
+
+    img {
+      width: 310px;
+      margin-top: 24px;
+    }
+    @include sp {
+      width: 100%;
+      border-radius: 9px;
+      img {
+        width: 185px;
+        margin-top: 13px;
+      }
+    }
+  }
+
+  .c-cost__cross {
+    width: 35px;
+    @include sp {
+      margin: 20px 0;
+    }
+  }
+
+  .c-cost__yearly {
+    background: #fff;
+    width: 45.5%;
+    border-radius: 17px;
+    text-align: center;
+    padding: 22px 30px;
 
     .c-cost__label {
-        font-size: 2.6rem;
-        line-height: 1.2;
-        color: #00be5a;
-        font-weight: 700;
+      position: relative;
     }
 
-    .c-cost__monthly {
-        background: #fff;
-        border-radius: 17px;
-        width: 45.5%;
-        text-align: center;
-        padding: 22px 0;
-
-        img {
-            width: 310px;
-            margin-top: 24px;
-        }
-        @include sp {
-            width: 100%;
-        }
+    .c-cost__label::after {
+      content: "";
+      width: 100%;
+      height: 3px;
+      background: #00be5a;
+      left: 0;
+      position: absolute;
+      bottom: -10px;
     }
 
-    .c-cost__cross {
-        width: 35px;
+    table {
+      font-size: 1.8rem;
+      font-weight: 400;
+      width: 95%;
+      color: #000;
+      line-height: 1.16;
+      margin: 20px auto 18px;
+      @include sp {
+        font-size: calc(1.8rem * 0.75);
+      }
     }
-
-    .c-cost__yearly {
-        background: #fff;
-        width: 45.5%;
-        border-radius: 17px;
-        text-align: center;
-        padding: 22px 30px;
-
-        .c-cost__label {
-            position: relative;
-        }
-
-        .c-cost__label::after {
-            content: "";
-            width: 100%;
-            height: 3px;
-            background: #00be5a;
-            left: 0;
-            position: absolute;
-            bottom: -10px;
-        }
-
-        table {
-            font-size: 1.8rem;
-            font-weight: 400;
-            width: 95%;
-            color: #000;
-            line-height: 1.16;
-            margin: 20px auto 18px;
-        }
-        @include sp {
-            width: 100%;
-        }
+    @include sp {
+      width: 100%;
+      border-radius: 9px;
+      padding: 22px;
     }
+  }
 
-    .c-cost__yearnote {
-        font-size: 1.4rem;
-        font-weight: 400;
-        color: #000;
-        line-height: 1.2;
+  .c-cost__yearnote {
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #000;
+    line-height: 1.2;
+    @include sp {
+      font-size: calc(1.4rem * 0.75);
     }
+  }
 
-    .c-cost__note {
-        margin-top: 20px;
-        font-size: 1.4rem;
-        line-height: 1.64;
+  .c-cost__note {
+    margin-top: 20px;
+    font-size: 1.4rem;
+    line-height: 1.64;
+    @include sp {
+      font-size: calc(1.4rem * 0.75);
     }
+  }
 }

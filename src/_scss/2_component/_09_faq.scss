@@ -18,7 +18,8 @@ table
         padding: 82px 47px;
         border-radius: 30px;
         @include sp {
-            padding: 22px 10px;
+        border-radius: 15px;
+        padding: 22px 10px;
         }
     }
 

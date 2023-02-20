@@ -21,6 +21,10 @@
         flex-wrap: wrap;
         justify-content: space-between;
         padding: 0 30px;
+        @include sp{
+            max-width: 600px;
+            margin: 33px auto;
+        }
     }
 
     .c-future__item {
@@ -42,6 +46,13 @@
                 margin-top: 7px;
             }
         }
+        @include sp {
+            padding: 30px 4px 35px;
+
+            &:nth-child(n + 3) {
+                margin-top: 3px;
+            }
+        }
     }
 
     .c-future__iconlabel {
@@ -51,6 +62,9 @@
         line-height: 2.06;
         margin-top: auto;
         font-feature-settings: "palt" 1;
+        @include sp {
+            font-size: 1.2rem;
+        }
     }
 
     .c-future__p {
@@ -58,6 +72,9 @@
         font-weight: 400;
         line-height: 1.78;
         text-align: left;
+        @include sp {
+            font-size: 1rem;
+        }
     }
 
     .c-future__iconwrapper {
@@ -74,5 +91,8 @@
         color: #fff;
         max-width: 801px;
         margin: 0 auto;
+        @include sp {
+            font-size: 1.2rem;
+        }
     }
 }
