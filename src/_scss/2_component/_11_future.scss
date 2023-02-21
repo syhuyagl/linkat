@@ -13,8 +13,46 @@
     }
 
     .c-future__icon {
-        width: 58px;
         margin: 0 auto;
+        height: 60px;
+        display: flex;
+        align-items: center;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .c-future__icon1 {
+        width: 58px;
+    }
+
+    .c-future__icon2 {
+        width: 66px;
+    }
+
+    .c-future__icon3 {
+        width: 66px;
+    } 
+
+    .c-future__icon4 {
+        width: 77px;
+    }
+
+    .c-future__icon5 {
+        width: 61px;
+    }
+
+    .c-future__icon6 {
+        width: 62px;
+    }
+
+    .c-future__icon7 {
+        width: 53px;
+    }
+
+    .c-future__icon8 {
+        width: 66px;
     }
 
     .c-future__items {

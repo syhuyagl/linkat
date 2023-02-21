@@ -47,7 +47,6 @@ line
     .c-use__slide {
         padding: 33px 55px 40px;
         background: #fff;
-        border-radius: 29px;
         height: 600px;
         @include sp {
             padding: 18px;
@@ -104,5 +103,8 @@ line
         @include sp {
             max-width: 375px;
         }
+    }
+    .slick-list {
+        border-radius: 29px;
     }
 }
