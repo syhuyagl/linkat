@@ -1,13 +1,4 @@
 .c-news {
-    background: #f4f6ed;
-    padding: 237px 180px 94px;
-    @include tab {
-        padding: 137px 76px 61px;
-    }
-    @include sp {
-        padding: 90px 14px 47px;
-    }
-
     .c-news__wrapper {
         background: #fff;
         border-radius: 30px;

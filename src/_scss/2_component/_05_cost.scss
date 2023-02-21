@@ -47,7 +47,7 @@ text
         justify-content: space-between;
         margin-top: 48px;
         margin-bottom: 70px;
-        @include sp {
+        @include tab {
             flex-direction: column;
             align-items: center;
             max-width: 500px;
@@ -76,8 +76,15 @@ text
             width: 310px;
             margin-top: 24px;
         }
-        @include sp {
+        @include tab {
             width: 100%;
+
+            img {
+                width: 310px;
+                margin-top: 13px;
+            }
+        }
+        @include sp {
             border-radius: 9px;
 
             img {
@@ -89,7 +96,7 @@ text
 
     .c-cost__cross {
         width: 35px;
-        @include sp {
+        @include tab {
             margin: 20px 0;
         }
     }
@@ -132,7 +139,7 @@ text
                 }
             }
         }
-        @include sp {
+        @include tab {
             width: 100%;
             border-radius: 9px;
             padding: 9px;

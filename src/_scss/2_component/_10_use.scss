@@ -5,110 +5,111 @@ line
 /*
 ------------------------------------------------------------*/
 .c-use {
-  padding: 100px 0 84px;
-  background: #f4f6ed;
-  background-image: url(../../assets/img/arrow-bg.png);
-  background-size: 370px;
-  background-position: 0 -32px;
-  @include sp {
-    padding: 50px 0 84px;
-  }
-  .c-use__title {
-    color: #008037;
-  }
-
-  .c-use__subtitle {
-    color: #000;
+    padding: 100px 0 84px;
+    background: #f4f6ed;
+    background-image: url(../../assets/img/arrow-bg.png);
+    background-size: 370px;
+    background-position: 0 -32px;
     @include sp {
-      font-size: 2rem;
-      padding: 0 10px;
-      margin-top: 22px;
+        padding: 50px 0 84px;
     }
-  }
 
-  .c-use__slidecontent {
-    display: flex;
-    transform: translateX(17px);
-    margin-top: 38px;
-    @include sp {
-      margin-top: 24px;
-      transform: none;
+    .c-use__title {
+        color: #008037;
     }
-  }
 
-  .c-use__slider {
-    margin-top: 57px;
-    @include tab {
-      padding: 0 50px;
+    .c-use__subtitle {
+        color: #000;
+        @include sp {
+            font-size: 2rem;
+            padding: 0 10px;
+            margin-top: 22px;
+        }
     }
-    @include sp {
-      margin-top: 15px;
-      padding: 0 24px;
+
+    .c-use__slidecontent {
+        display: flex;
+        transform: translateX(17px);
+        margin-top: 38px;
+        @include sp {
+            margin-top: 24px;
+            transform: none;
+        }
     }
-  }
 
-  .c-use__slide {
-    padding: 33px 55px 40px;
-    background: #fff;
-    height: 600px;
-    @include sp {
-      padding: 18px;
-      height: 358px;
+    .c-use__slider {
+        margin-top: 57px;
+        @include tab {
+            padding: 0 50px;
+        }
+        @include sp {
+            margin-top: 15px;
+            padding: 0 24px;
+        }
     }
-  }
 
-  .c-use__phone {
-    width: 178px;
-    margin-right: 50px;
-    @include sp {
-      width: 60px;
-      margin-right: 14px;
+    .c-use__slide {
+        padding: 33px 55px 40px;
+        background: #fff;
+        height: 600px;
+        @include sp {
+            padding: 18px;
+            height: 358px;
+        }
     }
-  }
 
-  .c-use__bubble1 {
-    width: 206px;
-    margin-top: 75px;
-    @include sp {
-      margin-top: 0;
-      width: 68px;
+    .c-use__phone {
+        width: 178px;
+        margin-right: 50px;
+        @include sp {
+            width: 60px;
+            margin-right: 14px;
+        }
     }
-  }
 
-  .c-use__slidetitle {
-    font-size: 2.2rem;
-    color: #008037;
-    line-height: 1.75;
-    font-weight: 900;
-    @include sp {
-      font-size: 1.9rem;
+    .c-use__bubble1 {
+        width: 206px;
+        margin-top: 75px;
+        @include sp {
+            margin-top: 0;
+            width: 68px;
+        }
     }
-  }
 
-  .c-use__slidedes {
-    font-size: 1.6rem;
-    font-weight: 400;
-    line-height: 1.68;
-    color: #000;
-    @include sp {
-      font-size: 1.2rem;
+    .c-use__slidetitle {
+        font-size: 2.2rem;
+        color: #008037;
+        line-height: 1.75;
+        font-weight: 900;
+        @include sp {
+            font-size: 1.9rem;
+        }
     }
-  }
 
-  .c-use__slidecontent3 {
-    justify-content: center;
-  }
-
-  .c-slider__wrapper {
-    max-width: 1366px;
-    margin: 0 auto;
-    position: relative;
-    @include sp {
-      max-width: 375px;
+    .c-use__slidedes {
+        font-size: 1.6rem;
+        font-weight: 400;
+        line-height: 1.68;
+        color: #000;
+        @include sp {
+            font-size: 1.2rem;
+        }
     }
-  }
 
-  .slick-list {
-    border-radius: 29px;
-  }
+    .c-use__slidecontent3 {
+        justify-content: center;
+    }
+
+    .c-slider__wrapper {
+        max-width: 1366px;
+        margin: 0 auto;
+        position: relative;
+        @include sp {
+            max-width: 375px;
+        }
+    }
+
+    .slick-list {
+        border-radius: 29px;
+    }
 }

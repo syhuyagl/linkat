@@ -34,7 +34,7 @@ navi
         width: 400px;
         font-weight: 900;
         border: 1px solid #008037;
-        @include sp {
+        @include tab {
             width: 34%;
             font-size: 1.7rem;
         }

@@ -1,178 +1,178 @@
 .c-future {
-  background: #008037;
-  padding: 75px 0;
+    background: #008037;
+    padding: 75px 0;
 
-  .c-future__subtitle {
-    font-size: 1.6rem;
-    font-weight: 400;
-    color: #fff;
-    margin-top: 20px;
-    @include sp {
-      font-weight: 900;
-      padding: 0 10px;
+    .c-future__subtitle {
+        font-size: 1.6rem;
+        font-weight: 400;
+        color: #fff;
+        margin-top: 20px;
+        @include sp {
+            font-weight: 900;
+            padding: 0 10px;
+        }
     }
-  }
 
-  .c-future__icon {
-    margin: 0 auto;
-    height: 60px;
-    display: flex;
-    align-items: center;
+    .c-future__icon {
+        margin: 0 auto;
+        height: 60px;
+        display: flex;
+        align-items: center;
 
-    img {
-      width: 100%;
+        img {
+            width: 100%;
+        }
+        @include sp {
+            height: 30px;
+        }
     }
-    @include sp {
-      height: 30px;
-    }
-  }
 
-  .c-future__icon1 {
-    width: 58px;
-    @include sp {
-      width: 40px;
+    .c-future__icon1 {
+        width: 58px;
+        @include sp {
+            width: 40px;
+        }
     }
-  }
 
-  .c-future__icon2 {
-    width: 66px;
-    @include sp {
-      width: 47px;
+    .c-future__icon2 {
+        width: 66px;
+        @include sp {
+            width: 47px;
+        }
     }
-  }
 
-  .c-future__icon3 {
-    width: 66px;
-    @include sp {
-      width: 47px;
+    .c-future__icon3 {
+        width: 66px;
+        @include sp {
+            width: 47px;
+        }
     }
-  }
 
-  .c-future__icon4 {
-    width: 77px;
-    @include sp {
-      width: 55px;
+    .c-future__icon4 {
+        width: 77px;
+        @include sp {
+            width: 55px;
+        }
     }
-  }
 
-  .c-future__icon5 {
-    width: 61px;
-    @include sp {
-      width: 41px;
+    .c-future__icon5 {
+        width: 61px;
+        @include sp {
+            width: 41px;
+        }
     }
-  }
 
-  .c-future__icon6 {
-    width: 62px;
-    @include sp {
-      width: 41px;
+    .c-future__icon6 {
+        width: 62px;
+        @include sp {
+            width: 41px;
+        }
     }
-  }
 
-  .c-future__icon7 {
-    width: 53px;
-    @include sp {
-      width: 33px;
+    .c-future__icon7 {
+        width: 53px;
+        @include sp {
+            width: 33px;
+        }
     }
-  }
 
-  .c-future__icon8 {
-    width: 66px;
-    @include sp {
-      width: 47px;
+    .c-future__icon8 {
+        width: 66px;
+        @include sp {
+            width: 47px;
+        }
     }
-  }
 
-  .c-future__items {
-    margin-top: 33px;
-    margin-bottom: 50px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 0 30px;
-    @include sp {
-      max-width: 563px;
-      padding: 0 20px;
-      margin: 33px auto;
+    .c-future__items {
+        margin-top: 33px;
+        margin-bottom: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 0 30px;
+        @include sp {
+            max-width: 563px;
+            padding: 0 20px;
+            margin: 33px auto;
+        }
     }
-  }
 
-  .c-future__item {
-    background: #fff;
-    border-radius: 5px;
-    width: 24.5%;
-    text-align: center;
-    padding: 30px 15px 35px;
-    display: flex;
-    flex-direction: column;
+    .c-future__item {
+        background: #fff;
+        border-radius: 5px;
+        width: 24.5%;
+        text-align: center;
+        padding: 30px 15px 35px;
+        display: flex;
+        flex-direction: column;
 
-    &:nth-child(n + 5) {
-      margin-top: 7px;
+        &:nth-child(n + 5) {
+            margin-top: 7px;
+        }
+        @include tab {
+            min-width: 49.5%;
+
+            &:nth-child(n + 3) {
+                margin-top: 7px;
+            }
+        }
+        @include sp {
+            padding: 30px 9px 35px;
+            max-width: 249px;
+            border-radius: 3px;
+            width: 49.5%;
+            max-width: 250px;
+            min-width: auto;
+
+            &:nth-child(n + 3) {
+                margin-top: 3px;
+            }
+        }
     }
-    @include tab {
-      min-width: 49.5%;
 
-      &:nth-child(n + 3) {
-        margin-top: 7px;
-      }
+    .c-future__iconlabel {
+        font-weight: 700;
+        font-size: 1.6rem;
+        color: #000;
+        line-height: 2.06;
+        margin-top: auto;
+        font-feature-settings: "palt" 1;
+        @include sp {
+            font-size: 1.2rem;
+        }
     }
-    @include sp {
-      padding: 30px 9px 35px;
-      max-width: 249px;
-      border-radius: 3px;
-      width: 49.5%;
-      max-width: 250px;
-      min-width: auto;
 
-      &:nth-child(n + 3) {
-        margin-top: 3px;
-      }
+    .c-future__p {
+        font-size: 1.4rem;
+        font-weight: 400;
+        line-height: 1.78;
+        text-align: left;
+        @include sp {
+            font-size: 1rem;
+        }
     }
-  }
 
-  .c-future__iconlabel {
-    font-weight: 700;
-    font-size: 1.6rem;
-    color: #000;
-    line-height: 2.06;
-    margin-top: auto;
-    font-feature-settings: "palt" 1;
-    @include sp {
-      font-size: 1.2rem;
+    .c-future__iconwrapper {
+        height: 111px;
+        display: flex;
+        flex-direction: column;
+        @include sp {
+            height: 70px;
+        }
     }
-  }
 
-  .c-future__p {
-    font-size: 1.4rem;
-    font-weight: 400;
-    line-height: 1.78;
-    text-align: left;
-    @include sp {
-      font-size: 1rem;
+    .c-future_note {
+        text-align: center;
+        font-weight: 400;
+        font-size: 1.6rem;
+        line-height: 1.82;
+        color: #fff;
+        max-width: 801px;
+        margin: 0 auto;
+        @include sp {
+            font-size: 1.2rem;
+            padding: 0 10px;
+            max-width: 508px;
+        }
     }
-  }
-
-  .c-future__iconwrapper {
-    height: 111px;
-    display: flex;
-    flex-direction: column;
-    @include sp {
-      height: 70px;
-    }
-  }
-
-  .c-future_note {
-    text-align: center;
-    font-weight: 400;
-    font-size: 1.6rem;
-    line-height: 1.82;
-    color: #fff;
-    max-width: 801px;
-    margin: 0 auto;
-    @include sp {
-      font-size: 1.2rem;
-      padding: 0 10px;
-      max-width: 508px;
-    }
-  }
 }

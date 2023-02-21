@@ -1,6 +1,13 @@
 /*------------------------------------------------------------
 Css of home page
 ------------------------------------------------------------*/
-.p-about {
-    line-height: 2;
+.p-child {
+    background: #f4f6ed;
+    padding: 237px 0 94px;
+    @include tab {
+        padding: 137px 76px 61px;
+    }
+    @include sp {
+        padding: 90px 14px 47px;
+    }
 }
