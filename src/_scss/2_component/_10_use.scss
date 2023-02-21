@@ -10,6 +10,9 @@ line
     background-image: url(../../assets/img/arrow-bg.png);
     background-size: 370px;
     background-position: 0 -32px;
+    @include tab {
+        background-size: 170px;
+    }
     @include sp {
         padding: 50px 0 84px;
     }
@@ -61,6 +64,9 @@ line
     .c-use__phone {
         width: 178px;
         margin-right: 50px;
+        @include tab {
+            width: 20%;
+        }
         @include sp {
             width: 60px;
             margin-right: 14px;
@@ -70,6 +76,9 @@ line
     .c-use__bubble1 {
         width: 206px;
         margin-top: 75px;
+        @include tab {
+            width: 26%;
+        }
         @include sp {
             margin-top: 0;
             width: 68px;

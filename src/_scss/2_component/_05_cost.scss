@@ -12,6 +12,7 @@ text
     background-position: 0 -32px;
     @include tab {
         padding: 100px 25px 60px;
+        background-size: 170px;
     }
     @include sp {
         padding: 50px 25px 30px;

@@ -95,6 +95,8 @@ icon
         @include tab {
             flex-direction: column;
             align-items: center;
+         
+
         }
         @include sp {
             padding: 0 26px;
@@ -114,6 +116,8 @@ icon
             margin-bottom: 0;
         }
         @include tab {
+            width: 70%;
+
             &:nth-last-child(-n + 2) {
                 margin-bottom: 38px;
             }

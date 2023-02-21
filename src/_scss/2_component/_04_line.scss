@@ -10,8 +10,10 @@ form
     background-image: url(../../assets/img/arrow-bg.png);
     background-size: 370px;
     background-position: 0 -32px;
+    @include tab {
+        background-size: 170px;
+    }
 
- 
     .c-line__img1 {
         padding-right: 47px;
         padding-left: 52px;
@@ -35,6 +37,10 @@ form
     .c-line__img {
         width: 50%;
         @include tab {
+            width: 50%;
+            padding: 0 20px;
+        }
+        @include sp {
             width: 100%;
             padding: 0 20px;
         }
@@ -47,7 +53,7 @@ form
             width: 100%;
         }
         @include sp {
-            padding: 30px 18px 43px;
+            padding: 30px 18px 10px;
         }
     }
 
@@ -76,6 +82,7 @@ form
         padding: 34px 0 22px;
         @include tab {
             max-width: 768px;
+            padding: 34px 50px 22px;
             margin: 28px auto 0;
         }
         @include sp {
