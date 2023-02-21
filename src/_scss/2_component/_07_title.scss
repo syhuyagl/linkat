@@ -14,7 +14,6 @@ img
     line-height: 1.2;
     @include sp {
         font-size: 2.7rem;
-        
     }
 }
 
@@ -25,6 +24,7 @@ img
     line-height: 1.19;
     text-align: center;
     color: #fff;
+    margin-top: 20px;
     @include sp {
         font-size: 1.7rem;
     }
