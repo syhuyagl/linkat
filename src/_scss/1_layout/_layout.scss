@@ -80,3 +80,14 @@ body {
         right: 1.1%;
     }
 }
+
+
+@keyframes moveBackground {
+    from {
+        background-position: 0 0;
+    }
+
+    to {
+        background-position: 9999px -9999px;
+    }
+}

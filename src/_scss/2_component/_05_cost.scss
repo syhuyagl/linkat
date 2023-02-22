@@ -6,10 +6,6 @@ text
 ------------------------------------------------------------*/
 .c-cost {
     padding: 73px 0 60px;
-    background: #f4f6ed;
-    background-image: url(../../assets/img/arrow-bg.png);
-    background-size: 370px;
-    background-position: 0 -32px;
     @include tab {
         padding: 100px 25px 60px;
         background-size: 170px;

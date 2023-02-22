@@ -6,10 +6,6 @@ line
 ------------------------------------------------------------*/
 .c-use {
     padding: 100px 0 84px;
-    background: #f4f6ed;
-    background-image: url(../../assets/img/arrow-bg.png);
-    background-size: 370px;
-    background-position: 0 -32px;
     @include tab {
         background-size: 170px;
     }
@@ -57,7 +53,7 @@ line
         height: 600px;
         @include sp {
             padding: 18px;
-            height: 358px;
+            height: 395px;
         }
     }
 
