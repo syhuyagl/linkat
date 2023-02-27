@@ -5,7 +5,7 @@ text
 /*
 ------------------------------------------------------------*/
 .c-cost {
-    padding: 73px 0 60px;
+    padding: 73px 0 128px;
     @include tab {
         padding: 100px 25px 60px;
         background-size: 170px;
@@ -23,21 +23,23 @@ text
         font-size: 1.6rem;
         font-weight: 400;
         margin-top: 28px;
+        margin-bottom: 45px;
         @include sp {
             max-width: 477px;
-            margin: 28px auto 0;
+            margin: 28px auto;
         }
     }
 
     .c-cost__wrapper {
         background: #fff;
         border-radius: 28px;
-        padding: 60px 70px;
+        padding: 74px 62px;
     }
 
     .c-cost__alltop {
         display: flex;
         justify-content: space-between;
+        padding: 0 9px;
     }
 
     .c-cost__logo {
@@ -46,12 +48,14 @@ text
 
     .c-cost__allcost {
         width: 59.7%;
+        margin-right: 15px;
     }
 
     .c-cost__alltitle {
         font-size: 1.8rem;
         color: #000;
         font-weight: 400;
+        margin-top: 37px;
         line-height: 1.67;
     }
 
@@ -69,7 +73,7 @@ text
             border: 1px solid #008037;
 
             &:not(:first-child) {
-                background: #008037;
+                background: #00be5a;
                 padding: 23px 0;
             }
         }
@@ -96,7 +100,12 @@ text
     }
 
     .c-cost__cross {
-        width: 40px;
+        text-align: center;
+        margin: 35px 0 37px;
+
+        img {
+            width: 40px;
+        }
     }
 
     .c-cost__allcontent {
@@ -119,5 +128,68 @@ text
 
     .c-cost__unit {
         font-size: 2.4rem;
+    }
+
+    .c-cost__linetitle {
+        display: flex;
+        font-size: 3rem;
+        color: #00be5a;
+        letter-spacing: 0.04em;
+        line-height: 1.2;
+        font-weight: 900;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 15px;
+
+        img {
+            width: 6.3%;
+            max-width: 53px;
+        }
+    }
+
+    .c-cost__table1 {
+        position: relative;
+        margin-top: 15px;
+    }
+
+    .c-cost__highlight {
+        position: absolute;
+        border: 9px solid #008037;
+        right: 0;
+        top: -22.3%;
+        height: 124%;
+        width: 41.8%;
+    }
+
+    .c-cost__highlighttext {
+        text-align: center;
+        font-weight: 700;
+        font-size: 3.1rem;
+        color: #fff;
+        line-height: 0.8;
+        padding: 3px 0 11px;
+        background: #008037;
+    }
+
+    .c-cost__fuka {
+        font-size: 2rem;
+    }
+
+    .c-cost__per {
+        font-size: 2rem;
+    }
+
+    .c-cost__line {
+        table {
+            thead > tr > th {
+                &:first-child {
+                    width: 15.4%;
+                }
+
+                &:not(:first-child) {
+                    width: 26%;
+                }
+            }
+        }
     }
 }

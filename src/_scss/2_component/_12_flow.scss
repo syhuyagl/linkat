@@ -5,11 +5,8 @@
 
     .c-flow__wrapper {
         display: flex;
-        justify-content: space-between;
-        @include sp {
-            align-items: center;
-            padding: 0 26px;
-        }
+        justify-content: center;
+      
     }
 
     .c-flow__left {
