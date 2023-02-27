@@ -26,9 +26,12 @@ icon
     }
 
     .c-mechanism__subheading {
+        margin-bottom: 60px;
+
         @include sp {
             font-feature-settings: "palt" 1;
             margin-top: 15px;
+            margin-bottom: 30px;
         }
     }
 
