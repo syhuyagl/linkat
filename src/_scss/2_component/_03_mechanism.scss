@@ -175,4 +175,41 @@ icon
     .c-mechanism__icon4 {
         padding-top: 29px;
     }
+
+    .c-mechanism__ftext {
+        text-align: center;
+        color: #fcee21;
+        font-size: 3.5rem;
+        font-weight: 900;
+        line-height: 1.75;
+        position: relative;
+        margin-top: 80px;
+        font-feature-settings: "palt" 1;
+        margin-bottom: 10px;
+
+        &::after {
+            content: "";
+            position: absolute;
+            top: 63%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: url("../../assets/img/section-2-effect.png");
+            width: 100%;
+            background-size: contain;
+            background-repeat: no-repeat;
+            width: 72%;
+            height: 224px;
+            left: 50%;
+        }
+    }
+
+    .c-mechanism__footer {
+        position: relative;
+    }
+
+    .c-mechanism__effect {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
 }
