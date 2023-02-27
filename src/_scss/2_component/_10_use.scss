@@ -57,6 +57,18 @@ line
         }
     }
 
+    .c-use__phones {
+        width: 78.7%;
+        margin-right: 50px;
+        @include tab {
+            width: 20%;
+        }
+        @include sp {
+            width: 60px;
+            margin-right: 14px;
+        }
+    }
+
     .c-use__phone {
         width: 178px;
         margin-right: 50px;
