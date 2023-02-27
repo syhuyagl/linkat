@@ -8,7 +8,7 @@ icon
     background: #008037;
     padding: 75px 0;
     @include sp {
-        padding: 25px 0;
+        padding: 25px 0 55px;
     }
 
     .c-mechanism__header {
@@ -39,7 +39,7 @@ icon
     .c-mechanism__icon {
         width: 35.1%;
         @include sp {
-            width: 53%;
+            width: 30.3%;
         }
     }
 
@@ -131,6 +131,13 @@ icon
             width: 100%;
             border-radius: 15px;
 
+            &:first-child {
+                .c-mechanism__icon {
+                    padding-left: 8px;
+                    padding-top: 46px;
+                }
+            }
+
             &:nth-last-child(-n + 2) {
                 .c-mechanism__icon {
                     width: 30.3%;
@@ -161,9 +168,9 @@ icon
         margin-left: 24px;
         margin-right: 18px;
         @include sp {
-            width: 30.9%;
-            margin-left: 23px;
-            margin-right: 6px;
+            width: 30.7%;
+            margin-left: 0;
+            margin-right: 0;
         }
     }
 
@@ -186,6 +193,7 @@ icon
         margin-top: 80px;
         font-feature-settings: "palt" 1;
         margin-bottom: 32px;
+        z-index: 1;
 
         &::after {
             content: "";
@@ -197,9 +205,24 @@ icon
             width: 100%;
             background-size: contain;
             background-repeat: no-repeat;
-            width: 72%;
+            width: 53%;
             height: 224px;
+            z-index: 0;
             left: 50%;
+            min-width: 493px;
+            pointer-events: none;
+        }
+        @include sp {
+            font-size: 2.6rem;
+            max-width: 261px;
+            margin: 40px auto 0;
+
+            &::after {
+                width: 120%;
+                min-width: 0;
+                height: 131px;
+                top: 53%;
+            }
         }
     }
 

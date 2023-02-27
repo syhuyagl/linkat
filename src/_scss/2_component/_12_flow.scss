@@ -1,12 +1,19 @@
 .c-flow {
     background: #f4f6ed;
-    padding-top: 26px;
-    padding-bottom: 67px;
+    padding-top: 74px;
+    padding-bottom: 138px;
+
+    .c-flow__title {
+        color: #008037;
+    }
 
     .c-flow__wrapper {
         display: flex;
         justify-content: center;
-      
+        position: relative;
+        @include sp {
+            padding: 0 20px;
+        }
     }
 
     .c-flow__left {
@@ -145,6 +152,50 @@
             img {
                 width: 130px;
             }
+        }
+    }
+
+    .c-flow__img {
+        position: absolute;
+        width: 150px;
+        @include sp {
+            width: 87px;
+        }
+    }
+
+    .c-flow__img1 {
+        left: 3%;
+        top: 4%;
+        @include sp {
+            left: 3%;
+            top: 1%;
+        }
+    }
+
+    .c-flow__img2 {
+        top: 38%;
+        right: 3%;
+        @include sp {
+            top: 40%;
+            right: 3%;
+        }
+    }
+
+    .c-flow__img3 {
+        bottom: 28%;
+        left: 2%;
+        @include sp {
+            bottom: 31.6%;
+            left: 38%;
+        }
+    }
+
+    .c-flow__img4 {
+        bottom: 7%;
+        right: 8%;
+        @include sp {
+            bottom: 8%;
+            right: 4%;
         }
     }
 }

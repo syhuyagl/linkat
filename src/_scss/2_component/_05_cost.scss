@@ -34,21 +34,38 @@ text
         background: #fff;
         border-radius: 28px;
         padding: 74px 62px;
+        @include sp {
+            padding: 30px 20px;
+        }
     }
 
     .c-cost__alltop {
         display: flex;
         justify-content: space-between;
         padding: 0 9px;
+        @include sp {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
     }
 
     .c-cost__logo {
         width: 32.8%;
+        @include sp {
+            width: 61.8%;
+        }
     }
 
     .c-cost__allcost {
         width: 59.7%;
         margin-right: 15px;
+        @include sp {
+            width: 100%;
+            margin-top: 28px;
+            margin-right: 0;
+        }
     }
 
     .c-cost__alltitle {
@@ -57,6 +74,9 @@ text
         font-weight: 400;
         margin-top: 37px;
         line-height: 1.67;
+        @include sp {
+            font-size: 1.4rem;
+        }
     }
 
     table {
@@ -97,6 +117,28 @@ text
             border: 1px solid #008037;
             text-align: center;
         }
+        @include sp {
+            overflow-x: auto;
+            white-space: nowrap;
+            -webkit-overflow-scrolling: touch;
+
+            thead > tr > th {
+                font-size: 2rem;
+
+                &:not(:first-child) {
+                    padding: 23px 20px;
+                }
+            }
+
+            tbody > tr > th {
+                font-size: 1.2rem;
+                padding-right: 12px;
+            }
+
+            td {
+                font-size: 2.6rem;
+            }
+        }
     }
 
     .c-cost__cross {
@@ -124,10 +166,16 @@ text
 
     .c-cost__label {
         font-size: 1.8rem;
+        @include sp {
+            font-size: 1.4rem;
+        }
     }
 
     .c-cost__unit {
         font-size: 2.4rem;
+        @include sp {
+            font-size: 1.8rem;
+        }
     }
 
     .c-cost__linetitle {
@@ -145,11 +193,32 @@ text
             width: 6.3%;
             max-width: 53px;
         }
+        @include sp {
+            font-size: 2.3rem;
+        }
     }
 
     .c-cost__table1 {
         position: relative;
         margin-top: 15px;
+        @include sp {
+            overflow: auto;
+            height: 229px;
+
+            table {
+                margin-top: 35px;
+            }
+
+            .c-cost__highlight {
+                display: none;
+            }
+        }
+    }
+
+    .c-cost__table2 {
+        @include sp {
+            overflow: auto;
+        }
     }
 
     .c-cost__highlight {
@@ -159,6 +228,10 @@ text
         top: -22.3%;
         height: 124%;
         width: 41.8%;
+        z-index: 999;
+        @include sp {
+            border: 5px solid #008037;
+        }
     }
 
     .c-cost__highlighttext {
@@ -169,14 +242,23 @@ text
         line-height: 0.8;
         padding: 3px 0 11px;
         background: #008037;
+        @include sp {
+            font-size: 2.3rem;
+        }
     }
 
     .c-cost__fuka {
         font-size: 2rem;
+        @include sp {
+            font-size: 1.5rem;
+        }
     }
 
     .c-cost__per {
         font-size: 2rem;
+        @include sp {
+            font-size: 1.5rem;
+        }
     }
 
     .c-cost__line {
@@ -190,6 +272,42 @@ text
                     width: 26%;
                 }
             }
+        }
+    }
+
+    .c-cost__recommendfirst {
+        @include sp {
+            border-top: 5px solid #008037;
+            border-left: 5px solid #008037;
+            border-right: 5px solid #008037;
+            position: relative;
+
+            &::after {
+                content: "オススメ!";
+                position: absolute;
+                display: block;
+                width: 105.5%;
+                background: #008037;
+                font-size: 2.3rem;
+                font-weight: 700;
+                top: -46%;
+                left: -5px;
+            }
+        }
+    }
+
+    .c-cost__recommendsecond {
+        @include sp {
+            border-left: 5px solid #008037;
+            border-right: 5px solid #008037;
+        }
+    }
+
+    .c-cost__recommendlast {
+        @include sp {
+            border-left: 5px solid #008037;
+            border-right: 5px solid #008037;
+            border-bottom: 5px solid #008037;
         }
     }
 }
