@@ -209,7 +209,7 @@ icon
     margin-top: 80px;
     font-feature-settings: "palt" 1;
     margin-bottom: 32px;
-    z-index: 1;
+    z-index: 0;
 
     &::after {
       content: "";

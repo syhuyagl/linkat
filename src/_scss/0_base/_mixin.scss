@@ -14,6 +14,11 @@
 //============================================
 // breakpoint
 //============================================
+@mixin sp-small{
+    @media only screen and (max-width: 374px) {
+        @content;
+    }
+}
 @mixin sp {
     @media only screen and (max-width: 767px) {
         @content;
