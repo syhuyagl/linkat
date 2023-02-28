@@ -5,329 +5,331 @@ text
 /*
 ------------------------------------------------------------*/
 .c-cost {
-  padding: 73px 0 128px;
-  @include tab {
-    padding: 100px 25px 60px;
-    background-size: 170px;
-  }
-  @include sp {
-    padding: 50px 25px 30px;
-  }
-
-  .c-cost__title {
-    color: #008037;
-  }
-
-  .c-cost__subtitle {
-    color: #000;
-    font-size: 1.6rem;
-    font-weight: 400;
-    margin-top: 28px;
-    margin-bottom: 45px;
-    @include sp {
-      max-width: 477px;
-      margin: 28px auto;
-    }
-  }
-
-  .c-cost__wrapper {
-    background: #fff;
-    border-radius: 28px;
-    padding: 74px 62px;
-    @include sp {
-      padding: 30px 20px;
-    }
-  }
-
-  .c-cost__alltop {
-    display: flex;
-    justify-content: space-between;
-    padding: 0 9px;
-    @include sp {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      max-width: 375px;
-      margin: 0 auto;
-    }
-  }
-
-  .c-cost__logo {
-    width: 32.8%;
-    @include sp {
-      width: 61.8%;
-    }
-  }
-
-  .c-cost__allcost {
-    width: 59.7%;
-    margin-right: 15px;
-    @include sp {
-      width: 100%;
-      margin-top: 28px;
-      margin-right: 0;
-    }
-  }
-
-  .c-cost__alltitle {
-    font-size: 1.8rem;
-    color: #000;
-    font-weight: 400;
-    margin-top: 37px;
-    line-height: 1.67;
+    padding: 73px 0 128px;
     @include tab {
-      width: 59%;
+        padding: 100px 25px 60px;
+        background-size: 170px;
     }
     @include sp {
-      font-size: 1.4rem;
-      width: 100%;
-    }
-  }
-
-  table {
-    background: #fefff3;
-    border-collapse: collapse;
-    width: 100%;
-    border: 1px solid #008037;
-
-    thead > tr > th {
-      font-size: 2.8rem;
-      font-weight: 900;
-      line-height: 1.17;
-      color: #fff;
-      border: 1px solid #008037;
-
-      &:not(:first-child) {
-        background: #00be5a;
-        padding: 23px 0;
-      }
+        padding: 50px 25px 30px;
     }
 
-    tbody > tr > th {
-      font-size: 1.6rem;
-      font-weight: 700;
-      line-height: 1.75;
-      color: #000;
-      text-align: left;
-      border: 1px solid #008037;
-      padding-left: 14px;
+    .c-cost__title {
+        color: #008037;
     }
 
-    td {
-      font-size: 3.4rem;
-      padding: 3px 0;
-      font-weight: 400;
-      line-height: 1.76;
-      color: #000;
-      border: 1px solid #008037;
-      text-align: center;
-    }
-    @include tab {
-      tbody > tr > th {
-        text-align: center;
-        padding: 0 8px;
-      }
-    }
-    @include sp {
-      overflow-x: auto;
-      white-space: nowrap;
-      -webkit-overflow-scrolling: touch;
-
-      thead > tr > th {
-        font-size: 2rem;
-        text-align: left;
-        &:not(:first-child) {
-          padding: 23px 20px;
+    .c-cost__subtitle {
+        color: #000;
+        font-size: 1.6rem;
+        font-weight: 400;
+        margin-top: 28px;
+        margin-bottom: 45px;
+        @include sp {
+            max-width: 477px;
+            margin: 28px auto;
         }
-      }
-
-      tbody > tr > th {
-        font-size: 1.2rem;
-        padding-right: 12px;
-      }
-
-      td {
-        font-size: 2.6rem;
-      }
     }
-  }
 
-  .c-cost__cross {
-    text-align: center;
-    margin: 35px 0 37px;
-
-    img {
-      width: 40px;
+    .c-cost__wrapper {
+        background: #fff;
+        border-radius: 28px;
+        padding: 74px 62px;
+        @include sp {
+            padding: 30px 20px;
+        }
     }
-  }
 
-  .c-cost__allcontent {
+    .c-cost__alltop {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 9px;
+        @include sp {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            max-width: 375px;
+            margin: 0 auto;
+        }
+    }
+
+    .c-cost__logo {
+        width: 32.8%;
+        @include sp {
+            width: 61.8%;
+        }
+    }
+
+    .c-cost__allcost {
+        width: 59.7%;
+        margin-right: 15px;
+        @include sp {
+            width: 100%;
+            margin-top: 28px;
+            margin-right: 0;
+        }
+    }
+
+    .c-cost__alltitle {
+        font-size: 1.8rem;
+        color: #000;
+        font-weight: 400;
+        margin-top: 37px;
+        line-height: 1.67;
+        @include tab {
+            width: 59%;
+        }
+        @include sp {
+            font-size: 1.4rem;
+            width: 100%;
+        }
+    }
+
     table {
-      thead > tr > th {
-        &:first-child {
-          width: 15.4%;
-        }
-
-        &:not(:first-child) {
-          width: 38.2%;
-        }
-      }
-    }
-  }
-
-  .c-cost__label {
-    font-size: 1.8rem;
-    @include sp {
-      font-size: 1.4rem;
-    }
-  }
-
-  .c-cost__unit {
-    font-size: 2.4rem;
-    padding-left: 7px;
-    @include sp {
-      font-size: 1.8rem;
-    }
-  }
-
-  .c-cost__linetitle {
-    display: flex;
-    font-size: 3rem;
-    color: #00be5a;
-    letter-spacing: 0.04em;
-    line-height: 1.2;
-    font-weight: 900;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 15px;
-
-    img {
-      width: 6.3%;
-      max-width: 53px;
-      margin-right: 15px;
-    }
-    @include sp {
-      font-size: 2.3rem;
-      img {
-        width: 12.3%;
-      }
-    }
-  }
-
-  .c-cost__table1 {
-    position: relative;
-    margin-top: 15px;
-    @include sp {
-      overflow: auto;
-      height: 229px;
-
-      table {
-        margin-top: 35px;
-      }
-
-      .c-cost__highlight {
-        display: none;
-      }
-    }
-  }
-
-  .c-cost__table2 {
-    @include sp {
-      overflow: auto;
-    }
-  }
-
-  .c-cost__highlight {
-    position: absolute;
-    border: 9px solid #008037;
-    right: 0;
-    top: -22.3%;
-    height: 124%;
-    width: 41.8%;
-    z-index: 999;
-    @include sp {
-      border: 5px solid #008037;
-    }
-  }
-
-  .c-cost__highlighttext {
-    text-align: center;
-    font-weight: 700;
-    font-size: 3.1rem;
-    color: #fff;
-    line-height: 0.8;
-    padding: 3px 0 11px;
-    background: #008037;
-    @include sp {
-      font-size: 2.3rem;
-    }
-  }
-
-  .c-cost__fuka {
-    font-size: 2rem;
-    @include sp {
-      font-size: 1.5rem;
-    }
-  }
-
-  .c-cost__per {
-    font-size: 2rem;
-    @include sp {
-      font-size: 1.5rem;
-    }
-  }
-
-  .c-cost__line {
-    table {
-      thead > tr > th {
-        &:first-child {
-          width: 15.4%;
-        }
-
-        &:not(:first-child) {
-          width: 26%;
-        }
-      }
-    }
-  }
-
-  .c-cost__recommendfirst {
-    @include sp {
-      border-top: 5px solid #008037;
-      border-left: 5px solid #008037;
-      border-right: 5px solid #008037;
-      position: relative;
-
-      &::after {
-        content: "オススメ!";
-        position: absolute;
-        display: block;
+        background: #fefff3;
+        border-collapse: collapse;
         width: 100%;
-        background: #008037;
-        font-size: 2.3rem;
-        font-weight: 700;
-        transform: translateY(-100%);
-        top: 0;
-        padding: 0px 5px 2px;
-        left: -5px;
+        border: 1px solid #008037;
+
+        thead > tr > th {
+            font-size: 2.8rem;
+            font-weight: 900;
+            line-height: 1.17;
+            color: #fff;
+            border: 1px solid #008037;
+
+            &:not(:first-child) {
+                background: #00be5a;
+                padding: 23px 0;
+            }
+        }
+
+        tbody > tr > th {
+            font-size: 1.6rem;
+            font-weight: 700;
+            line-height: 1.75;
+            color: #000;
+            text-align: left;
+            border: 1px solid #008037;
+            padding-left: 14px;
+        }
+
+        td {
+            font-size: 3.4rem;
+            padding: 3px 0;
+            font-weight: 400;
+            line-height: 1.76;
+            color: #000;
+            border: 1px solid #008037;
+            text-align: center;
+        }
+        @include tab {
+            tbody > tr > th {
+                text-align: center;
+                padding: 0 8px;
+            }
+        }
+        @include sp {
+            overflow-x: auto;
+            white-space: nowrap;
+            -webkit-overflow-scrolling: touch;
+
+            thead > tr > th {
+                font-size: 2rem;
+                text-align: left;
+
+                &:not(:first-child) {
+                    padding: 23px 20px;
+                }
+            }
+
+            tbody > tr > th {
+                font-size: 1.2rem;
+                padding-right: 12px;
+            }
+
+            td {
+                font-size: 2.6rem;
+            }
+        }
+    }
+
+    .c-cost__cross {
         text-align: center;
-      }
-    }
-  }
+        margin: 35px 0 37px;
 
-  .c-cost__recommendsecond {
-    @include sp {
-      border-left: 5px solid #008037;
-      border-right: 5px solid #008037;
+        img {
+            width: 40px;
+        }
     }
-  }
 
-  .c-cost__recommendlast {
-    @include sp {
-      border-left: 5px solid #008037;
-      border-right: 5px solid #008037;
-      border-bottom: 5px solid #008037;
+    .c-cost__allcontent {
+        table {
+            thead > tr > th {
+                &:first-child {
+                    width: 15.4%;
+                }
+
+                &:not(:first-child) {
+                    width: 38.2%;
+                }
+            }
+        }
     }
-  }
+
+    .c-cost__label {
+        font-size: 1.8rem;
+        @include sp {
+            font-size: 1.4rem;
+        }
+    }
+
+    .c-cost__unit {
+        font-size: 2.4rem;
+        padding-left: 7px;
+        @include sp {
+            font-size: 1.8rem;
+        }
+    }
+
+    .c-cost__linetitle {
+        display: flex;
+        font-size: 3rem;
+        color: #00be5a;
+        letter-spacing: 0.04em;
+        line-height: 1.2;
+        font-weight: 900;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 15px;
+
+        img {
+            width: 6.3%;
+            max-width: 53px;
+            margin-right: 15px;
+        }
+        @include sp {
+            font-size: 2.3rem;
+
+            img {
+                width: 12.3%;
+            }
+        }
+    }
+
+    .c-cost__table1 {
+        position: relative;
+        margin-top: 15px;
+        @include sp {
+            overflow: auto;
+            height: 229px;
+
+            table {
+                margin-top: 35px;
+            }
+
+            .c-cost__highlight {
+                display: none;
+            }
+        }
+    }
+
+    .c-cost__table2 {
+        @include sp {
+            overflow: auto;
+        }
+    }
+
+    .c-cost__highlight {
+        position: absolute;
+        border: 9px solid #008037;
+        right: 0;
+        top: -22.3%;
+        height: 124%;
+        width: 41.8%;
+        z-index: 999;
+        @include sp {
+            border: 5px solid #008037;
+        }
+    }
+
+    .c-cost__highlighttext {
+        text-align: center;
+        font-weight: 700;
+        font-size: 3.1rem;
+        color: #fff;
+        line-height: 0.8;
+        padding: 3px 0 11px;
+        background: #008037;
+        @include sp {
+            font-size: 2.3rem;
+        }
+    }
+
+    .c-cost__fuka {
+        font-size: 2rem;
+        @include sp {
+            font-size: 1.5rem;
+        }
+    }
+
+    .c-cost__per {
+        font-size: 2rem;
+        @include sp {
+            font-size: 1.5rem;
+        }
+    }
+
+    .c-cost__line {
+        table {
+            thead > tr > th {
+                &:first-child {
+                    width: 15.4%;
+                }
+
+                &:not(:first-child) {
+                    width: 26%;
+                }
+            }
+        }
+    }
+
+    .c-cost__recommendfirst {
+        @include sp {
+            border-top: 5px solid #008037;
+            border-left: 5px solid #008037;
+            border-right: 5px solid #008037;
+            position: relative;
+
+            &::after {
+                content: "オススメ!";
+                position: absolute;
+                display: block;
+                width: 100%;
+                background: #008037;
+                font-size: 2.3rem;
+                font-weight: 700;
+                transform: translateY(-100%);
+                top: 0;
+                padding: 0 5px 2px;
+                left: -5px;
+                text-align: center;
+            }
+        }
+    }
+
+    .c-cost__recommendsecond {
+        @include sp {
+            border-left: 5px solid #008037;
+            border-right: 5px solid #008037;
+        }
+    }
+
+    .c-cost__recommendlast {
+        @include sp {
+            border-left: 5px solid #008037;
+            border-right: 5px solid #008037;
+            border-bottom: 5px solid #008037;
+        }
+    }
 }

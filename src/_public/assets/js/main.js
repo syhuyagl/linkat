@@ -73,4 +73,14 @@ $(document).ready(function () {
       "1000"
     );
   });
+  const $checkbox = $('#accept');
+  const $link = $('.c-notes__home');
+
+  $checkbox.on('change', function() {
+    if ($checkbox.prop('checked')) {
+      $link.removeClass('disabled');
+    } else {
+      $link.addClass('disabled');
+    }
+  });
 });

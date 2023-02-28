@@ -5,67 +5,67 @@ title
 /*
 ------------------------------------------------------------*/
 .c-banner {
-  background-color: #000;
+    background-color: #000;
 
-  .c-banner__price {
-    width: 428px;
-    @include tab {
-      margin-bottom: 15px;
+    .c-banner__price {
+        width: 428px;
+        @include tab {
+            margin-bottom: 15px;
+        }
+        @include sp {
+            width: 284px;
+            margin-bottom: 0;
+        }
     }
-    @include sp {
-      width: 284px;
-      margin-bottom: 0;
-    }
-  }
 
-  .c-banner__content {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 23px 50px;
-    @include tab {
-      flex-direction: column;
+    .c-banner__content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 23px 50px;
+        @include tab {
+            flex-direction: column;
+        }
+        @include sp {
+            padding: 17px 15px;
+        }
     }
-    @include sp {
-      padding: 17px 15px;
-    }
-  }
 
-  .c-banner__btns {
-    display: flex;
-    color: #008037;
-    font-size: 1.4rem;
-    font-weight: 700;
-    @include sp {
-      display: flex;
-      width: 100%;
-      justify-content: space-between;
-      font-size: 1.2rem;
-      max-width: 385px;
-      margin: 18px auto 0;
+    .c-banner__btns {
+        display: flex;
+        color: #008037;
+        font-size: 1.4rem;
+        font-weight: 700;
+        @include sp {
+            display: flex;
+            width: 100%;
+            justify-content: space-between;
+            font-size: 1.2rem;
+            max-width: 385px;
+            margin: 18px auto 0;
+        }
+        @include sp-small {
+            font-size: 1rem;
+        }
     }
-    @include sp-small {
-      font-size: 1rem;
-    }
-  }
 
-  .c-banner__btn {
-    width: 200px;
-    background: #fcee21;
-    text-align: center;
-    border-radius: 23px;
-    padding: 14px 0;
+    .c-banner__btn {
+        width: 200px;
+        background: #fcee21;
+        text-align: center;
+        border-radius: 23px;
+        padding: 14px 0;
 
-    &:first-child {
-      margin-right: 23px;
-    }
-    @include sp {
-      width: 41.8%;
-      padding: 13px 10px;
+        &:first-child {
+            margin-right: 23px;
+        }
+        @include sp {
+            width: 41.8%;
+            padding: 13px 10px;
 
-      &:first-child {
-        margin-right: 0;
-      }
+            &:first-child {
+                margin-right: 0;
+            }
+        }
     }
-  }
 }
