@@ -107,6 +107,9 @@
 
     .c-inquiry__btn {
         width: 386px;
+        @include tab {
+            width: 260px;
+        }
         @include sp {
             width: 200px;
         }

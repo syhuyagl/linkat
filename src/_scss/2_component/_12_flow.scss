@@ -1,5 +1,4 @@
 .c-flow {
-    background: #f4f6ed;
     padding-top: 74px;
     padding-bottom: 138px;
 
@@ -13,6 +12,7 @@
         position: relative;
         @include sp {
             padding: 0 20px;
+            max-width: 472px;
         }
     }
 
@@ -31,6 +31,10 @@
 
     .c-flow__items {
         margin-top: 95px;
+        @include sp {
+            max-width: 358px;
+            margin: 95px auto 0;
+        }
     }
 
     .c-flow__item {
@@ -129,6 +133,9 @@
         margin-left: 19px;
         line-height: 0.8;
         margin-top: 13px;
+        @include tab {
+            line-height: 1.2;
+        }
         @include sp {
             margin-left: 9px;
             font-size: calc(2.8rem * 0.75);
@@ -186,7 +193,7 @@
         left: 2%;
         @include sp {
             bottom: 31.6%;
-            left: 38%;
+            left: 71%;
         }
     }
 
@@ -194,7 +201,7 @@
         bottom: 7%;
         right: 8%;
         @include sp {
-            bottom: 8%;
+            bottom: 12%;
             right: 4%;
         }
     }

@@ -1,14 +1,17 @@
 .u-left {
-    text-align: left;
+  text-align: left;
 }
 
 .u-right {
-    text-align: right;
+  text-align: right;
 }
 
 .u-arrowbg {
-    background: #f4f6ed;
-    background-image: url(../../assets/img/arrow-bg.png);
-    background-size: 370px;
-    animation: moveBackground 100s linear infinite;
+  background: #f4f6ed;
+  background-image: url(../../assets/img/arrow-bg.png);
+  background-size: 370px;
+  animation: moveBackground 100s linear infinite;
+  @include sp {
+    background-size: 190px;
+  }
 }

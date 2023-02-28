@@ -7,6 +7,10 @@
         font-weight: 400;
         color: #fff;
         margin-top: 20px;
+        @include tab {
+            padding: 0 20px;
+
+        }
         @include sp {
             font-weight: 900;
             padding: 0 10px;
@@ -169,6 +173,9 @@
         color: #fff;
         max-width: 801px;
         margin: 0 auto;
+        @include tab {
+            padding: 0 20px;
+        }
         @include sp {
             font-size: 1.2rem;
             padding: 0 10px;

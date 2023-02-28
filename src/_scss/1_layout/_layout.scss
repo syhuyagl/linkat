@@ -56,6 +56,10 @@ body {
     &:hover {
         opacity: 0.7;
     }
+    @include tab {
+        top: 50%;
+        transform: translateY(-50%);
+    }
     @include sp {
         width: 11px;
     }
