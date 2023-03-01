@@ -109,6 +109,9 @@ list
     .c-tool__icon {
         width: 113px;
         margin: 50px auto 45px;
+        @include sp {
+            margin: 25px auto 20px;
+        }
     }
 
     .c-tool__text {
@@ -140,16 +143,16 @@ list
 
     .c-tool__phone {
         width: 113px;
-        transform: translateX(10px);
+        transform: translateX(14px);
         @include sp {
             width: 57px;
-            transform: none;
+            transform: translateX(8px);
         }
     }
 
     .c-tool__people {
         width: 140px;
-        transform: translateX(-6px);
+        transform: translateX(-3px);
         @include sp {
             transform: none;
             width: 70px;

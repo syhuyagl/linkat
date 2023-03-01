@@ -50,7 +50,7 @@ form
             width: 100%;
         }
         @include sp {
-            padding: 30px 18px 10px;
+            padding: 15px 18px 10px;
         }
     }
 
@@ -140,7 +140,7 @@ form
                 flex-direction: column;
 
                 .c-line__content {
-                    padding: 30px 16px 43px;
+                    padding: 15px 16px 10px;
                 }
 
                 .c-line__p {
@@ -173,6 +173,7 @@ form
         line-height: 1.8;
         margin-top: 28px;
         @include sp {
+            margin-top: 15px;
             font-size: 1.1rem;
         }
     }

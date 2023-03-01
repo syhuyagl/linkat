@@ -7,7 +7,7 @@ line
 .c-use {
     padding: 100px 0 84px;
     @include tab {
-        background-size: 170px; 
+        background-size: 170px;
     }
     @include sp {
         padding: 50px 0 84px;
@@ -58,7 +58,7 @@ line
     }
 
     .c-use__phones {
-        width: 78.7%;
+        width: 79%;
         margin-right: 50px;
         @include tab {
             width: 78.7%;
@@ -100,6 +100,8 @@ line
         font-weight: 900;
         @include sp {
             font-size: 1.9rem;
+            line-height: 1.35;
+            margin-bottom: 13px;
         }
     }
 
