@@ -15,7 +15,7 @@ icon
         padding-left: 32px;
         @include sp {
             padding-right: 0;
-            padding-left: 0;
+            padding-left: 21px;
         }
     }
 
@@ -90,12 +90,12 @@ icon
         @include sp {
             padding-bottom: 0;
             font-size: 1.7rem;
-            padding-left: 21px;
         }
     }
 
     .c-mechanism__titlesmall {
-        font-size: 2rem;
+        font-size: 1.6rem;
+        display: block;
         @include sp {
             font-size: 1.7rem;
         }

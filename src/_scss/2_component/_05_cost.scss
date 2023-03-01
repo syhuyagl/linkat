@@ -100,7 +100,7 @@ text
 
             &:not(:first-child) {
                 background: #00be5a;
-                padding: 17px 0;
+                padding: 11px 0 10px;
             }
         }
 
@@ -118,7 +118,7 @@ text
             font-size: 3rem;
             padding: 3px 0;
             font-weight: 400;
-            line-height: 1.76;
+            line-height: 1.46;
             color: #000;
             border: 1px solid #008037;
             text-align: center;
@@ -244,10 +244,11 @@ text
         position: absolute;
         border: 9px solid #008037;
         right: 0;
-        top: -22.3%;
-        height: 124%;
         width: 41.8%;
         z-index: 999;
+        border-top: 0;
+        height: 132%;
+        top: -28.2%;
         @include sp {
             border: 5px solid #008037;
         }
@@ -259,7 +260,7 @@ text
         font-size: 2.7rem;
         color: #fff;
         line-height: 0.8;
-        padding: 3px 0 11px;
+        padding: 10px 0 13px;
         background: #008037;
         @include sp {
             font-size: 2.3rem;
@@ -334,8 +335,6 @@ text
     }
 
     .c-cost__note {
-        color: #f00;
         margin-top: 12px;
-        font-weight: 700;
     }
 }
