@@ -61,6 +61,7 @@
         line-height: 1.92;
         padding-left: 27px;
         @include sp {
+            padding-left: 0;
             font-size: calc(1.4rem * 0.75);
         }
     }
@@ -116,17 +117,24 @@
     }
 
     .c-notes__home {
-        img {
-            width: 296px;
-        }
         margin: 26px auto 0;
         display: block;
         text-align: center;
-        width: fit-content;
+        width: 74%;
+        background: #008037;
+        color: #fcee21;
+        font-weight: 700;
+        max-width: 296px;
+        border-radius: 25px;
+        padding: 15px 0;
+        @include sp {
+        }
     }
 
     .c-notes__home.disabled {
         pointer-events: none;
+        background: #bebebe;
+        color: #fff;
     }
 
     .c-notes__dot {
@@ -134,7 +142,6 @@
     }
 
     .c-notes__link {
-        font-weight: 700;
         color: #008037;
     }
 }

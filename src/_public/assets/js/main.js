@@ -4,6 +4,7 @@ $(document).ready(function () {
     infinite: true,
     autoplay: true,
     arrows: true,
+    dots: true,
     prevArrow: $(".c-arrow__left"),
     nextArrow: $(".c-arrow__right"),
   });
@@ -54,7 +55,7 @@ $(document).ready(function () {
   $(".c-header__navlink a").click(function () {
     var href = $(this).attr("href");
     $(".c-header__overlay").removeClass("c-header__overlay--active");
-    enableScroll()
+    enableScroll();
     $("html, body").animate(
       {
         scrollTop: $(href).offset().top,
@@ -65,7 +66,7 @@ $(document).ready(function () {
   $(".c-footer__link").click(function () {
     var href = $(this).attr("href");
     $(".c-header__overlay").removeClass("c-header__overlay--active");
-    enableScroll()
+    enableScroll();
     $("html, body").animate(
       {
         scrollTop: $(href).offset().top,
@@ -73,14 +74,14 @@ $(document).ready(function () {
       "1000"
     );
   });
-  const $checkbox = $('#accept');
-  const $link = $('.c-notes__home');
+  const $checkbox = $("#accept");
+  const $link = $(".c-notes__home");
 
-  $checkbox.on('change', function() {
-    if ($checkbox.prop('checked')) {
-      $link.removeClass('disabled');
+  $checkbox.on("change", function () {
+    if ($checkbox.prop("checked")) {
+      $link.removeClass("disabled");
     } else {
-      $link.addClass('disabled');
+      $link.addClass("disabled");
     }
   });
 });

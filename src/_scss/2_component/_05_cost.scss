@@ -33,7 +33,7 @@ text
     .c-cost__wrapper {
         background: #fff;
         border-radius: 28px;
-        padding: 74px 62px;
+        padding: 50px 62px;
         @include sp {
             padding: 30px 20px;
         }
@@ -74,7 +74,7 @@ text
         font-size: 1.8rem;
         color: #000;
         font-weight: 400;
-        margin-top: 37px;
+        margin-top: 25px;
         line-height: 1.67;
         @include tab {
             width: 59%;
@@ -92,7 +92,7 @@ text
         border: 1px solid #008037;
 
         thead > tr > th {
-            font-size: 2.8rem;
+            font-size: 2.4rem;
             font-weight: 900;
             line-height: 1.17;
             color: #fff;
@@ -100,7 +100,7 @@ text
 
             &:not(:first-child) {
                 background: #00be5a;
-                padding: 23px 0;
+                padding: 17px 0;
             }
         }
 
@@ -115,7 +115,7 @@ text
         }
 
         td {
-            font-size: 3.4rem;
+            font-size: 3rem;
             padding: 3px 0;
             font-weight: 400;
             line-height: 1.76;
@@ -156,7 +156,7 @@ text
 
     .c-cost__cross {
         text-align: center;
-        margin: 35px 0 37px;
+        margin: 25px 0 27px;
 
         img {
             width: 40px;
@@ -256,7 +256,7 @@ text
     .c-cost__highlighttext {
         text-align: center;
         font-weight: 700;
-        font-size: 3.1rem;
+        font-size: 2.7rem;
         color: #fff;
         line-height: 0.8;
         padding: 3px 0 11px;
@@ -331,5 +331,11 @@ text
             border-right: 5px solid #008037;
             border-bottom: 5px solid #008037;
         }
+    }
+
+    .c-cost__note {
+        color: #f00;
+        margin-top: 12px;
+        font-weight: 700;
     }
 }
